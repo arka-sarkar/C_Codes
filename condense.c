@@ -5,7 +5,6 @@ int main(int argc, char* argv[]) {
     char curr, prev='\0';
     int n=1, first=1, l=0, length=0;
     while ((curr=getchar())!=EOF && !isspace(curr)) {
-        
         if(prev==curr) n++;
         else {
             if(n>=2) {
