@@ -7,9 +7,8 @@ int main(int argc, char* argv[]) {
     {
         for (int j = 1; j <= 2*n+1; j++)
         {
-            if (i%2) {
-                putchar('0');
-            } else {
+            if (i%2) putchar('0');
+            else {
                 if (j%2) putchar('0');
                 else putchar('#');
             }
