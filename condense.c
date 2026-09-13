@@ -12,8 +12,7 @@ int main(int argc, char* argv[]) {
                 printf("%c%d", prev, n);
                 n=1;
                 l+=2;
-            }
-            else {
+            } else {
                 if(!first) {
                     printf("%c",prev);
                     l++;
