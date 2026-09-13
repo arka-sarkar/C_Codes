@@ -1,0 +1,10 @@
+OPERATORS                       ASSOCIATIVITY
+
+! ++ -- (+ - unary op) (type)   <--
+* / %                           -->
+(+ - binary op)                 -->
+< <= > >=                       -->
+== !=                           -->
+&&                              -->
+||                              -->
+= += -= *= /= %=                <--

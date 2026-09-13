@@ -1,0 +1,7 @@
+Reverse a number
+a^b
+decimal -> binary
+gcd recursive
+binary search
+Reverse string
+check palindrome string
