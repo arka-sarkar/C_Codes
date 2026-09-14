@@ -63,7 +63,7 @@ int main(int argc, char* argv[]) {
                 if(rollno[0]){
                     printf("Students with roll no. ");
                     for(int i=0; i<pos1; i++) {
-                        printf("%d", rollno[pos1]);
+                        printf("%d", rollno[i]);
                         if(i != pos-1) printf(", ");
                     }
                     printf(" got %d marks\n", mark);
