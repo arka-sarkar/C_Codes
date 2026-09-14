@@ -42,14 +42,14 @@ int main(int argc, char* argv[]) {
 
             case 4:
                 for(int i=0; i<pos; i++) {
-                    if(max < marks[i]) max == marks[i];
+                    if(max < marks[i]) max = marks[i];
                 }
                 printf("The maximum marks is %d.\n", max);
                 break;
             
             case 5:
                 for(int i=0; i<pos; i++) {
-                    if(min > marks[i]) min == marks[i];
+                    if(min > marks[i]) min = marks[i];
                 }
                 printf("The maximum marks is %d.\n", min);
                 break;
