@@ -66,7 +66,7 @@ int main(int argc, char* argv[]) {
                         printf("%d", rollno[pos1]);
                         if(i != pos-1) printf(", ");
                     }
-                    putchar('\n');
+                    printf(" got %d marks\n", mark);
                 } else printf("No students got %d marks.\n", mark);
                 break;
 
@@ -74,7 +74,7 @@ int main(int argc, char* argv[]) {
                 return 0;
 
             default:
-                printf("You entered the wrong option.\n");
+                printf("Please enter any number from 1 to 7.\n");
                 break;
         }
     }
