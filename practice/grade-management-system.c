@@ -27,8 +27,8 @@ int main(int argc, char* argv[]) {
             case 2:
                 printf("The marks in the order of increasing roll no. is ");
                 for(int i=0; i<pos; i++) {
-                    if( i != 0 ) putchar(' ');
                     printf("%d", marks[i]);
+                    if(i != pos-1) printf(", ");
                 }
                 putchar('\n');
                 break;
@@ -36,7 +36,7 @@ int main(int argc, char* argv[]) {
             case 3:
                 for(int i=0; i<pos; i++) sum += marks[i];
                 avg = (float)sum/pos;
-                printf("The average mark is %.1f.\n", avg);
+                printf("The average mark is %.2f.\n", avg);
                 sum = 0;
                 break;
 
@@ -58,16 +58,19 @@ int main(int argc, char* argv[]) {
                 scanf(" %d", &mark);
 
                 for(int i=0; i<pos; i++) {
-                    if(mark == marks[i]) rollno[pos1++] = pos+1;
+                    if(mark == marks[i]) rollno[pos1++] = i+1;
                 }
                 if(rollno[0]){
-                    printf("Students with roll no. ");
-                    for(int i=0; i<pos1; i++) {
-                        printf("%d", rollno[i]);
-                        if(i != pos-1) printf(", ");
-                    }
-                    printf(" got %d marks\n", mark);
+                    if(pos1 > 1) {
+                        printf("Students with roll no. ");
+                        for(int i=0; i<pos1; i++) {
+                            printf("%d", rollno[i]);
+                            if(i != pos1-1) printf(", ");
+                        }
+                        printf(" got %d marks.\n", mark);
+                    } else printf("Student with roll no. %d got %d marks.", rollno[0], mark);
                 } else printf("No students got %d marks.\n", mark);
+                pos1 = 0;
                 break;
 
             case 7:
