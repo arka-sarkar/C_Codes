@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
                     printf("%d", marks[i]);
                     if(i != pos-1) printf(", ");
                 }
-                putchar('\n');
+                printf(".\n");
                 break;
             
             case 3:
