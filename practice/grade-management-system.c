@@ -25,10 +25,12 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 2:
+                printf("The marks in the order of increasing roll no. is ");
                 for(int i=0; i<pos; i++) {
                     if( i != 0 ) putchar(' ');
                     printf("%d", marks[i]);
                 }
+                putchar('\n');
                 break;
             
             case 3:
@@ -58,7 +60,7 @@ int main(int argc, char* argv[]) {
                 for(int i=0; i<pos; i++) {
                     if(mark == marks[i]) rollno[pos1++] = pos+1;
                 }
-                if(!rollno[0]){
+                if(rollno[0]){
                     printf("Students with roll no. ");
                     for(int i=0; i<pos1; i++) {
                         printf("%d", rollno[pos1]);
