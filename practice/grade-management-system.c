@@ -1,10 +1,18 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(int argc, char* argv[]) {
-    int max=0, min=20, choice, mark, pos=0, sum=0, pos1=0;
+    int max=0, min=20, choice, pos=0, sum=0, pos1=0;
+    char mark[3];
+    char* file = "marks.txt";
     float avg;
     int marks[30]={0};
     int rollno[30]={0};
+
+    FILE* ptr = NULL;
+    
+    char ch;
+
     while (1) {
         printf("\n===== STUDENT MARKS =====\n");
         printf("1. Enter Marks\n");
@@ -18,9 +26,25 @@ int main(int argc, char* argv[]) {
         printf("\nEnter the corresponding number for the choice: ");
         scanf(" %d", &choice);
 
+        ptr = fopen(file ,"r");
+        while((ch=fgetc(ptr)) != EOF) {
+            if(ch == ' ') {
+                mark[pos1++]='\0';
+                marks[pos++] = atoi(mark);
+                pos1 = 0;
+            } else {
+                mark[pos1++] = ch;
+            }
+        }
+
         switch (choice) {
             case 1:
-                if(pos < 30) scanf(" %d", &marks[pos++]);
+                if(pos < 30) {
+                    scanf(" %d", &marks[pos++]);
+                    ptr = fopen(file ,"a");
+                    fprintf(ptr, "%d ", marks[pos-1]);
+                    fflush(ptr);
+                }
                 else printf("Your have already entered the marks of all students.\n");
                 break;
             
@@ -55,10 +79,10 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 6:
-                scanf(" %d", &mark);
+                scanf(" %[^\n]", mark);
 
                 for(int i=0; i<pos; i++) {
-                    if(mark == marks[i]) rollno[pos1++] = i+1;
+                    if(atoi(mark) == marks[i]) rollno[pos1++] = i+1;
                 }
                 if(rollno[0]){
                     if(pos1 > 1) {
@@ -67,9 +91,10 @@ int main(int argc, char* argv[]) {
                             printf("%d", rollno[i]);
                             if(i != pos1-1) printf(", ");
                         }
-                        printf(" got %d marks.\n", mark);
-                    } else printf("Student with roll no. %d got %d marks.", rollno[0], mark);
-                } else printf("No students got %d marks.\n", mark);
+                        printf(" got %s marks.\n", mark);
+                    } else printf("Student with roll no. %d got %s marks.", rollno[0], mark);
+                } else printf("No students got %s marks.\n", mark);
+                for(int i = 0; i < pos1; i++) rollno[i]=0;
                 pos1 = 0;
                 break;
 
@@ -80,6 +105,7 @@ int main(int argc, char* argv[]) {
                 printf("Please enter any number from 1 to 7.\n");
                 break;
         }
+        pos = 0;
     }
     
     return 0;
