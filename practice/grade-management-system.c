@@ -99,7 +99,7 @@ int main(int argc, char* argv[]) {
                 break;
 
             case 7:
-                return 0;
+                goto quit;
 
             default:
                 printf("Please enter any number from 1 to 7.\n");
@@ -108,5 +108,7 @@ int main(int argc, char* argv[]) {
         pos = 0;
     }
     
+    quit:
+    fclose(ptr);
     return 0;
 }
