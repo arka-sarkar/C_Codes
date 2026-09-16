@@ -49,12 +49,14 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 2:
-                printf("The marks in the order of increasing roll no. is ");
-                for(int i=0; i<pos; i++) {
-                    printf("%d", marks[i]);
-                    if(i != pos-1) printf(", ");
-                }
-                printf(".\n");
+                if(pos > 0) {
+                    printf("The marks in the order of increasing roll no. is ");
+                    for(int i=0; i<pos; i++) {
+                        printf("%d", marks[i]);
+                        if(i != pos-1) printf(", ");
+                    }
+                    printf(".\n");
+                } else printf("You haven\'t entered any marks yet.\n");
                 break;
             
             case 3:
