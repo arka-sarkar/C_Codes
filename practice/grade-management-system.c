@@ -1,6 +1,37 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+void parse(FILE* ptr, int arr[], int* pos) {
+    int pos1=0;
+    char elem[3];
+    char ch;
+
+    while((ch=fgetc(ptr)) != EOF) {
+        if(ch == ' ') {
+            elem[pos1++]='\0';
+            arr[(*pos)++] = atoi(elem);
+            pos1 = 0;
+        } else {
+            elem[pos1++] = ch;
+        }
+    }    
+}
+
+char* grade(int mark) {
+    int percentage = mark*5;
+    char* grade;
+    if(percentage > 90) grade = "A+";
+    else if(percentage > 80) grade = "A";
+    else if(percentage > 70) grade = "B+";
+    else if(percentage > 60) grade = "B";
+    else if(percentage > 50) grade = "C";
+    else if(percentage > 40) grade = "D";
+    else grade = "F";
+    return grade;
+}
+
+
+
 int main(int argc, char* argv[]) {
     int max=0, min=20, choice, pos=0, sum=0, pos1=0;
     char mark[3];
@@ -21,31 +52,25 @@ int main(int argc, char* argv[]) {
         printf("4. Find Highest Mark\n");
         printf("5. Find Lowest Mark\n");
         printf("6. Search for a Mark\n");
-        printf("7. Exit\n");
+        printf("7. Calculate grade for a particular roll no.\n");
+        printf("8. Exit\n");
         
         printf("\nEnter the corresponding number for the choice: ");
         scanf(" %d", &choice);
 
         ptr = fopen(file ,"r");
-        while((ch=fgetc(ptr)) != EOF) {
-            if(ch == ' ') {
-                mark[pos1++]='\0';
-                marks[pos++] = atoi(mark);
-                pos1 = 0;
-            } else {
-                mark[pos1++] = ch;
-            }
-        }
+        parse(ptr, marks, &pos);
 
         switch (choice) {
             case 1:
                 if(pos < 30) {
                     scanf(" %d", &marks[pos++]);
-                    ptr = fopen(file ,"a");
-                    fprintf(ptr, "%d ", marks[pos-1]);
-                    fflush(ptr);
-                }
-                else printf("Your have already entered the marks of all students.\n");
+                    if(marks[pos-1] >= 0 && marks[pos-1] <= 20) {
+                        ptr = fopen(file ,"a");
+                        fprintf(ptr, "%d ", marks[pos-1]);
+                        fflush(ptr);
+                    } else printf("Enter a marks from 0 to 20.\n");
+                } else printf("Your have already entered the marks of all students.\n");
                 break;
             
             case 2:
@@ -99,12 +124,19 @@ int main(int argc, char* argv[]) {
                 for(int i = 0; i < pos1; i++) rollno[i]=0;
                 pos1 = 0;
                 break;
-
+            
             case 7:
+                int roll;
+                scanf(" %d", &roll);
+                if(roll <= pos) printf("The grade of student with roll no. %d is %s.\n", roll, grade(marks[roll-1]));
+                else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
+                break;
+
+            case 8:
                 goto quit;
 
             default:
-                printf("Please enter any number from 1 to 7.\n");
+                printf("Please enter any number from 1 to 8.\n");
                 break;
         }
         pos = 0;
