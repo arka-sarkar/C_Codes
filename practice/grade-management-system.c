@@ -133,9 +133,9 @@ int main(int argc, char* argv[]) {
             case 8:
                 scanf(" %d", &roll);
                 if(roll <= pos){
-                    if(marks[roll] > 8) strncpy(status, "pass", 5);
+                    if(marks[roll-1] > 8) strncpy(status, "pass", 5);
                     else strncpy(status, "fail", 5);
-                    
+
                     printf("The student with roll no %d has %sed.\n", roll, status);
                 } else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
                 break;
