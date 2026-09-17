@@ -32,7 +32,7 @@ char* grade(int mark) {
 }
 
 int main(int argc, char* argv[]) {
-    int max=0, min=20, choice, pos=0, sum=0, pos1=0;
+    int max=0, min=20, choice, pos=0, sum=0, pos1=0, roll;
     char mark[3];
     char* file = "marks.txt";
     char status[5];
@@ -125,14 +125,12 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 7:
-                int roll;
                 scanf(" %d", &roll);
                 if(roll <= pos) printf("The grade of student with roll no. %d is %s.\n", roll, grade(marks[roll-1]));
                 else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
                 break;
             
             case 8:
-                int roll;
                 scanf(" %d", &roll);
                 if(roll <= pos){
                     if(marks[roll] > 8) strncpy(status, "pass", 5);
