@@ -30,8 +30,6 @@ char* grade(int mark) {
     return grade;
 }
 
-
-
 int main(int argc, char* argv[]) {
     int max=0, min=20, choice, pos=0, sum=0, pos1=0;
     char mark[3];
