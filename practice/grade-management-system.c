@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 void parse(FILE* ptr, int arr[], int* pos) {
     int pos1=0;
@@ -34,6 +35,7 @@ int main(int argc, char* argv[]) {
     int max=0, min=20, choice, pos=0, sum=0, pos1=0;
     char mark[3];
     char* file = "marks.txt";
+    char status[5];
     float avg;
     int marks[30]={0};
     int rollno[30]={0};
@@ -49,7 +51,8 @@ int main(int argc, char* argv[]) {
         printf("5. Find Lowest Mark\n");
         printf("6. Search for a Mark\n");
         printf("7. Calculate grade for a particular roll no.\n");
-        printf("8. Exit\n");
+        printf("8. Check whether a student with a particular roll no. passed or failed\n");
+        printf("9. Exit\n");
         
         printf("\nEnter the corresponding number for the choice: ");
         scanf(" %d", &choice);
@@ -127,8 +130,17 @@ int main(int argc, char* argv[]) {
                 if(roll <= pos) printf("The grade of student with roll no. %d is %s.\n", roll, grade(marks[roll-1]));
                 else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
                 break;
-
+            
             case 8:
+                int roll;
+                scanf(" %d", &roll);
+                if(roll <= pos){
+                    if(marks[roll] > 8) strncpy(status, "pass", 5);
+                    else strncpy(status, "fail", 5);
+                } else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
+                break;
+                
+            case 9:
                 goto quit;
 
             default:
