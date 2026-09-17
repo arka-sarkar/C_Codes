@@ -39,8 +39,6 @@ int main(int argc, char* argv[]) {
     int rollno[30]={0};
 
     FILE* ptr = NULL;
-    
-    char ch;
 
     while (1) {
         printf("\n===== STUDENT MARKS =====\n");
