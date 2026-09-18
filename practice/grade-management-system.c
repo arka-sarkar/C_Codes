@@ -84,7 +84,7 @@ int main(int argc, char* argv[]) {
                         if(i != pos-1) printf(", ");
                     }
                     printf(".\n");
-                } else if(pos == 1) printf("The marks in the order of increaaing roll no. is %hu", marks[0]); 
+                } else if(pos == 1) printf("The marks in the order of increaaing roll no. is %hu.", marks[0]); 
                 else printf("You haven\'t entered any marks yet.\n");
                 break;
             
