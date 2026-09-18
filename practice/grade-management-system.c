@@ -88,6 +88,10 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 3:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 for(int i=0; i<pos; i++) sum += marks[i];
                 avg = (float)sum/pos;
                 printf("The average mark is %.2f.\n", avg);
@@ -95,6 +99,10 @@ int main(int argc, char* argv[]) {
                 break;
 
             case 4:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 for(int i=0; i<pos; i++) {
                     if(max < marks[i]) max = marks[i];
                 }
@@ -102,6 +110,10 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 5:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 for(int i=0; i<pos; i++) {
                     if(min > marks[i]) min = marks[i];
                 }
@@ -109,6 +121,10 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 6:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 scanf(" %[^\n]", mark);
 
                 for(int i=0; i<pos; i++) {
@@ -129,12 +145,20 @@ int main(int argc, char* argv[]) {
                 break;
             
             case 7:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 scanf(" %d", &roll);
                 if(roll <= pos) printf("The grade of student with roll no. %d is %s.\n", roll, grade(marks[roll-1]));
                 else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
                 break;
             
             case 8:
+                if(pos == 0) {
+                    printf("You haven\'t entered any marks yet.\n");
+                    break;
+                }
                 scanf(" %d", &roll);
                 if(roll <= pos){
                     if(marks[roll-1] > 8) strncpy(status, "pass", 5);
