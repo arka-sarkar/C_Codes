@@ -67,10 +67,10 @@ int main(int argc, char* argv[]) {
         switch (choice) {
             case 1:
                 if(pos < 30) {
-                    scanf(" %d", &marks[pos++]);
+                    scanf(" %hu", &marks[pos++]);
                     if(marks[pos-1] >= 0 && marks[pos-1] <= 20) {
                         ptr = fopen(file ,"a");
-                        fprintf(ptr, "%d ", marks[pos-1]);
+                        fprintf(ptr, "%hu ", marks[pos-1]);
                         fflush(ptr);
                     } else printf("Enter a marks from 0 to 20.\n");
                 } else printf("Your have already entered the marks of all students.\n");
@@ -106,7 +106,7 @@ int main(int argc, char* argv[]) {
                 for(int i=0; i<pos; i++) {
                     if(max < marks[i]) max = marks[i];
                 }
-                printf("The maximum marks is %d.\n", max);
+                printf("The maximum marks is %u.\n", max);
                 break;
             
             case 5:
@@ -117,7 +117,7 @@ int main(int argc, char* argv[]) {
                 for(int i=0; i<pos; i++) {
                     if(min > marks[i]) min = marks[i];
                 }
-                printf("The maximum marks is %d.\n", min);
+                printf("The maximum marks is %u.\n", min);
                 break;
             
             case 6:
@@ -134,11 +134,11 @@ int main(int argc, char* argv[]) {
                     if(pos1 > 1) {
                         printf("Students with roll no. ");
                         for(int i=0; i<pos1; i++) {
-                            printf("%d", rollno[i]);
+                            printf("%hu", rollno[i]);
                             if(i != pos1-1) printf(", ");
                         }
                         printf(" got %s marks.\n", mark);
-                    } else printf("Student with roll no. %d got %s marks.", rollno[0], mark);
+                    } else printf("Student with roll no. %hu got %s marks.", rollno[0], mark);
                 } else printf("No students got %s marks.\n", mark);
                 for(int i = 0; i < pos1; i++) rollno[i]=0;
                 pos1 = 0;
@@ -150,8 +150,8 @@ int main(int argc, char* argv[]) {
                     break;
                 }
                 scanf(" %d", &roll);
-                if(roll <= pos) printf("The grade of student with roll no. %d is %s.\n", roll, grade(marks[roll-1]));
-                else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
+                if(roll <= pos) printf("The grade of student with roll no. %u is %s.\n", roll, grade(marks[roll-1]));
+                else printf("The marks of the student with roll no. %u is not entered yet.\n", roll);
                 break;
             
             case 8:
@@ -164,8 +164,8 @@ int main(int argc, char* argv[]) {
                     if(marks[roll-1] > 8) strncpy(status, "pass", 5);
                     else strncpy(status, "fail", 5);
 
-                    printf("The student with roll no %d has %sed.\n", roll, status);
-                } else printf("The marks of the student with roll no. %d is not entered yet.\n", roll);
+                    printf("The student with roll no %u has %sed.\n", roll, status);
+                } else printf("The marks of the student with roll no. %u is not entered yet.\n", roll);
                 break;
                 
             case 9:
