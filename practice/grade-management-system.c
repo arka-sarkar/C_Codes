@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
-void parse(FILE* ptr, int arr[], int* pos) {
+void parse(FILE* ptr, unsigned short arr[], int* pos) {
     int pos1=0;
     char elem[3];
     char ch;
@@ -10,7 +10,7 @@ void parse(FILE* ptr, int arr[], int* pos) {
     while((ch=fgetc(ptr)) != EOF) {
         if(ch == ' ') {
             elem[pos1++]='\0';
-            arr[(*pos)++] = atoi(elem);
+            arr[(*pos)++] = (unsigned short) atoi(elem);
             pos1 = 0;
         } else {
             elem[pos1++] = ch;
@@ -18,7 +18,7 @@ void parse(FILE* ptr, int arr[], int* pos) {
     }    
 }
 
-char* grade(int mark) {
+char* grade(unsigned int mark) {
     int percentage = mark*5;
     char* grade;
     if(percentage > 90) grade = "A+";
@@ -32,13 +32,13 @@ char* grade(int mark) {
 }
 
 int main(int argc, char* argv[]) {
-    int max=0, min=20, choice, pos=0, sum=0, pos1=0, roll;
+    unsigned int max=0, min=20, choice, pos=0, sum=0, pos1=0, roll;
     char mark[3];
     char* file = "marks.txt";
     char status[5];
     float avg;
-    int marks[30]={0};
-    int rollno[30]={0};
+    unsigned short marks[30]={0};
+    unsigned short rollno[30]={0};
 
     FILE* ptr = NULL;
 
@@ -55,7 +55,10 @@ int main(int argc, char* argv[]) {
         printf("9. Exit\n");
         
         printf("\nEnter the corresponding number for the choice: ");
-        scanf(" %d", &choice);
+        if(!scanf(" %u", &choice)) {
+            printf("Please don\'t enter anything other than a postive integer.\n");
+            return 1;
+        }
 
         ptr = fopen(file ,"r");
         parse(ptr, marks, &pos);
@@ -108,7 +111,7 @@ int main(int argc, char* argv[]) {
                 scanf(" %[^\n]", mark);
 
                 for(int i=0; i<pos; i++) {
-                    if(atoi(mark) == marks[i]) rollno[pos1++] = i+1;
+                    if((unsigned int)atoi(mark) == marks[i]) rollno[pos1++] = i+1;
                 }
                 if(rollno[0]){
                     if(pos1 > 1) {
