@@ -12,6 +12,7 @@ void parse(FILE* ptr, unsigned short arr[], int* pos) {
             elem[pos1++]='\0';
             arr[(*pos)++] = (unsigned short) atoi(elem);
             pos1 = 0;
+            strncpy(elem, "", 3);
         } else {
             elem[pos1++] = ch;
         }
