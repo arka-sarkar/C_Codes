@@ -112,7 +112,7 @@ int main(int argc, char* argv[]) {
                 scanf(" %[^\n]", mark);
 
                 for(int i=0; i<pos; i++) {
-                    if((unsigned int)atoi(mark) == marks[i]) rollno[pos1++] = i+1;
+                    if((unsigned short)atoi(mark) == marks[i]) rollno[pos1++] = i+1;
                 }
                 if(rollno[0]){
                     if(pos1 > 1) {
