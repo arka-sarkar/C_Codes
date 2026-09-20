@@ -4,8 +4,11 @@
 
 int read_line(char line[], int max) {
     int length=0;
-    char c;
-    for(;length<max-1 && (c=getchar()) != EOF && c!='\n'; length++) line[length] = c;
+    char c = getchar();
+    for(;length<max-1 && c != EOF && c!='\n'; length++) {
+        line[length] = c;
+        c = getchar();
+    }
 
     line[length] = '\0';
     return length;
