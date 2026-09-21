@@ -62,6 +62,11 @@ int main(int argc, char* argv[]) {
         }
 
         ptr = fopen(file ,"r");
+        if(ptr == NULL) {
+            printf("The file %s does\'nt exist.\n");
+            return 1;
+        }
+
         parse(ptr, marks, &pos);
 
         switch (choice) {
