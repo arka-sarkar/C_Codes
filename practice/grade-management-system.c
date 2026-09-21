@@ -63,7 +63,7 @@ int main(int argc, char* argv[]) {
 
         ptr = fopen(file ,"r");
         if(ptr == NULL) {
-            printf("The file %s does\'nt exist.\n");
+            printf("The file %s doesn\'t exist.\n", file);
             return 1;
         }
 
