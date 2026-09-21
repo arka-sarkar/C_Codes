@@ -12,7 +12,6 @@ int sum(int count, ...){
     }
     va_end(args);
     return total;
-    
 }
 
 int main(int argc, char* argv[]) {
