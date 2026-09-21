@@ -8,4 +8,4 @@ To access my git repo, run this command:
 
 Also, while using grade-management-system.c in practice/ folder create a file marks.txt in the same directory as the grade-management-system executable.
 
-# NOTE: Install gcc in your PC to try out these codes. The executables compiled only runs on Linux.
+# NOTE: Install gcc in your PC to try out these codes. The executables compiled only runs on Linux with glibc as the C Library (not musl).
