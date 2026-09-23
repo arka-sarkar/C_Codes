@@ -61,11 +61,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-        ptr = fopen(file ,"r");
-        if(ptr == NULL) {
-            printf("The file %s doesn\'t exist.\n", file);
-            return 1;
-        }
+        ptr = fopen(file ,"r+");
 
         parse(ptr, marks, &pos);
 
