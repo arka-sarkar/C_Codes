@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-        ptr = fopen(file ,"r+");
+        ptr = fopen(file ,"a+");
 
         parse(ptr, marks, &pos);
 
@@ -70,7 +70,6 @@ int main(int argc, char* argv[]) {
                 if(pos < 30) {
                     scanf(" %hu", &marks[pos++]);
                     if(marks[pos-1] >= 0 && marks[pos-1] <= 20) {
-                        ptr = fopen(file ,"a");
                         fprintf(ptr, "%hu ", marks[pos-1]);
                         fflush(ptr);
                     } else printf("Enter a marks from 0 to 20.\n");
