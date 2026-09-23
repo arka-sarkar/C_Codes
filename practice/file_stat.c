@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
     }
     
     char* filename = argv[1];
-    FILE* file = fopen(filename, "r");
+    FILE* file = fopen(filename, "rb");
     if(file == NULL) {
         printf("The file %s doesn't exist.\n", filename);
         return 1;
