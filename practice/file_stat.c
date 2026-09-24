@@ -11,19 +11,27 @@ typedef struct Content {
     size_t spaces;
 } content;
 
-content stat(const char file_content[]) {
-    content stats;
+int is_wc_space(unsigned char c) {
+    return c == ' '  ||
+           c == '\t' ||
+           c == '\n' ||
+           c == '\r' ||
+           c == '\v' ||
+           c == '\f' ||
+           c == 0xA0;
+}
+
+content stat(const unsigned char file_content[], content stats) {
     int in_word = 0;
     stats.lines = stats.digits = stats.spaces = stats.words = 0;
-    stats.bytes = strlen(file_content);
 
     if(stats.bytes == 0) return stats;
 
-    for(size_t i = 0; file_content[i]; i++) {
-        if(isdigit((unsigned char)file_content[i])) stats.digits++;
+    for(size_t i = 0; i < stats.bytes; i++) {
+        if(isdigit(file_content[i])) stats.digits++;
         if(file_content[i] == ' ') stats.spaces++;
 
-        if(isspace((unsigned char)file_content[i])) {
+        if(is_wc_space(file_content[i])) {
             in_word = 0;
         } else if(!in_word) {
             stats.words++;
@@ -31,7 +39,6 @@ content stat(const char file_content[]) {
         }
         if(file_content[i] == '\n') stats.lines++;
     }
-    if(file_content[stats.bytes-1] != '\n') stats.lines++;
     return stats;
 }
 
@@ -39,6 +46,8 @@ int main(int argc, char* argv[]) {
     if (argc == 2 && (!strcmp(argv[1], "--help") || !strcmp(argv[1], "-h"))){
         printf("Usage: \"./file_stat <filename>\".\n");
         printf("Calculate basic statistics of a text file.\n");
+        printf("Here, lines refer to no. of newline characters in the file not no. of lines percieved by humans.\n");
+        printf("This is necessary so that it can handle binary files as well.\n");
         return 0;
     }
 
@@ -48,22 +57,23 @@ int main(int argc, char* argv[]) {
     }
 
     char* filename = argv[1];
-    FILE* file = fopen(filename, "r");
+    FILE* file = fopen(filename, "rb");
     if(file == NULL) {
-        printf("The file %s doesn't exist.\n", filename);
+        printf("The file %s doesn't exist or can\'t be accessed.\n", filename);
         return 1;
     }
 
     
-    char* temp;
+    unsigned char* temp;
     size_t i = 0;
     size_t capacity = 100;
-    char* file_content = malloc((capacity+1)*sizeof(char));
+    unsigned char* file_content = malloc(capacity*sizeof(unsigned char));
     int ch;
+    content stats;
     while((ch=fgetc(file))!=EOF) {
         if(i >= capacity) {
             capacity *= 2;
-            temp = realloc(file_content, (capacity+1)*sizeof(char));
+            temp = realloc(file_content, capacity*sizeof(unsigned char));
 
             if(temp != NULL) {
                 file_content = temp;
@@ -74,12 +84,11 @@ int main(int argc, char* argv[]) {
                 return 1;
             }
         }
-        file_content[i] = (char)ch;
+        file_content[i] = (unsigned char)ch;
         i++;
     }
-    file_content[i]='\0';
-
-    content stats = stat(file_content);
+    stats.bytes = i;
+    stats = stat(file_content, stats);
 
     printf("File Statistics\n");
     printf("---------------\n");
