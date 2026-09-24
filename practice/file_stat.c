@@ -1,14 +1,15 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
+#define BUFFER_SIZE 8192
 
-typedef struct Content {
+typedef struct {
     size_t bytes;
     size_t words;
     size_t lines;
     size_t digits;
     size_t spaces;
+    int in_word;
 } content;
 
 int is_wc_space(unsigned char c) {
@@ -21,21 +22,17 @@ int is_wc_space(unsigned char c) {
            c == 0xA0;
 }
 
-content stat(const unsigned char file_content[], content stats) {
-    int in_word = 0;
-    stats.lines = stats.digits = stats.spaces = stats.words = 0;
-
-    if(stats.bytes == 0) return stats;
-
-    for(size_t i = 0; i < stats.bytes; i++) {
+content stat(const unsigned char file_content[], size_t bytes , content stats) {
+    for(size_t i = 0; i < bytes; i++) {
+        stats.bytes++;
         if(isdigit(file_content[i])) stats.digits++;
         if(file_content[i] == ' ') stats.spaces++;
 
         if(is_wc_space(file_content[i])) {
-            in_word = 0;
-        } else if(!in_word) {
+            stats.in_word = 0;
+        } else if(!stats.in_word) {
             stats.words++;
-            in_word = 1;
+            stats.in_word = 1;
         }
         if(file_content[i] == '\n') stats.lines++;
     }
@@ -48,6 +45,7 @@ int main(int argc, char* argv[]) {
         printf("Calculate basic statistics of a text file.\n");
         printf("Here, lines refer to no. of newline characters in the file not no. of lines percieved by humans.\n");
         printf("This is necessary so that it can handle binary files as well.\n");
+        printf("It handles binary files with LC_ALL=C setting.\n");
         return 0;
     }
 
@@ -65,30 +63,13 @@ int main(int argc, char* argv[]) {
 
     
     unsigned char* temp;
-    size_t i = 0;
-    size_t capacity = 100;
-    unsigned char* file_content = malloc(capacity*sizeof(unsigned char));
-    int ch;
-    content stats;
-    while((ch=fgetc(file))!=EOF) {
-        if(i >= capacity) {
-            capacity *= 2;
-            temp = realloc(file_content, capacity*sizeof(unsigned char));
-
-            if(temp != NULL) {
-                file_content = temp;
-            } else {
-                free(file_content);
-                fclose(file);
-                printf("Insufficient space.\n");
-                return 1;
-            }
-        }
-        file_content[i] = (unsigned char)ch;
-        i++;
+    size_t n;
+    unsigned char file_content[BUFFER_SIZE];
+    content stats = {0};
+    
+    while((n=fread(file_content, sizeof(unsigned char), BUFFER_SIZE, file)) > 0) {
+        stats = stat(file_content, n, stats);
     }
-    stats.bytes = i;
-    stats = stat(file_content, stats);
 
     printf("File Statistics\n");
     printf("---------------\n");
@@ -98,7 +79,6 @@ int main(int argc, char* argv[]) {
     printf("Digits     : %zu\n", stats.digits);
     printf("Spaces     : %zu\n", stats.spaces);
 
-    free(file_content);
     fclose(file);
     return 0;
 }
