@@ -61,15 +61,12 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    
-    unsigned char* temp;
     size_t n;
     unsigned char file_content[BUFFER_SIZE];
     content stats = {0};
     
-    while((n=fread(file_content, sizeof(unsigned char), BUFFER_SIZE, file)) > 0) {
+    while((n=fread(file_content, sizeof(unsigned char), BUFFER_SIZE, file)) > 0)
         stats = stat(file_content, n, stats);
-    }
 
     printf("File Statistics\n");
     printf("---------------\n");
