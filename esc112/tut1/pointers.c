@@ -6,6 +6,6 @@ int main(int argc, char* argv[]) {
     uint64_t* A = &a;
     char* c = (char*) A;
 
-    printf("%p %llu %c\n", A, a, *c);
+    printf("%p %lu %c\n", A, a, *c);
     return 0;
 }
