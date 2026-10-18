@@ -50,14 +50,14 @@ int main(int argc, char* argv[]) {
     }
 
     if(argc != 2) {
-        printf("Usage: \"./file_stat <filename>\".\n");
+        fprintf(stderr, "Usage: \"./file_stat <filename>\".\n");
         return 1;
     }
 
     char* filename = argv[1];
     FILE* file = fopen(filename, "rb");
     if(file == NULL) {
-        printf("The file %s doesn't exist or can\'t be accessed.\n", filename);
+        fprintf(stderr, "The file %s doesn't exist or can\'t be accessed.\n", filename);
         return 1;
     }
 
