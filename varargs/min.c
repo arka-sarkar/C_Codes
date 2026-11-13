@@ -2,13 +2,12 @@
 #include<stdarg.h>
 #include<limits.h>
 
-int min(int count, ...){
+int min(int count, ...) {
     int min = INT_MAX;
     va_list args;
     va_start(args, count);
     int a;
-    for (int i = 0; i < count; i++)
-    {
+    for (int i = 0; i < count; i++) {
         a = va_arg(args,int);
         if (a <= min) min = a;
     }
@@ -17,8 +16,7 @@ int min(int count, ...){
     return min;
 }
 
-int main()
-{
+int main() {
     int x1, y1, x2, y2, x, y;
     if (scanf("(%d,%d) (%d,%d) (%d,%d)", &x1, &y1, &x2, &y2, &x, &y)!=6) return 1;
     int dist1 = x-x1;
