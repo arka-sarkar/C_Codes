@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
         printf("%d\n", result);
     } else {
         printf("Run the command in this format:\n");
-        printf("./cmdline-calc <operation> <num1> <num2>\n\n");
+        printf("%s <operation> <num1> <num2>\n\n", argv[0]);
         printf("Where <operation> can be one of the five values: add, subtract, multiply, quotient, remainder.\n");
         printf("For quotient and remainder, num1 is dividend and num2 is divisor.\n");
         printf("For the rest, the names are self-explanatory.\n");
