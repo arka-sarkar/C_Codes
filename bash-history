@@ -1,0 +1,5955 @@
+systemctl enable pipewire --user
+systemctl enable pipewire-pulse --user
+systemctl enable wireplumber --user
+clear
+exit
+cp -r /mnt/niri-config/* .config/
+cd
+cp -r /mnt/niri-config/* .config/
+sync
+exit
+nvim .bashrc
+cd
+nvim .bashrc
+exit
+sudo pacman -S zip unzip
+cd /usr/share/fonts
+ls
+sudo mkdir jetbrains
+cd jetbrains/
+sudo unzip ~/Downloads/JetBrainsMono.zip 
+sudo rm OFL.txt README.md 
+cd ..
+sudo mkdir iosevka
+cd iosevka/
+sudo unzip ~/Downloads/Iosevka.zip 
+sudo rm *.md
+ls
+fc-cache
+sudo fc-cache
+nmtui
+sudo pacman -S brightnessctl
+brightnessctl s 10%
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin/
+makepkg -si
+clear
+cd ..
+rm -rf yay-bin/
+clear
+yay
+sudo pacman -S bash-completion
+. /etc/profile
+. .bashrc
+sudo pacman -S fprintd 
+fprintd-enroll -f left-index-finger $USER
+fprintd-enroll --help
+fprintd-enroll -f left-index-finger arka
+sudo pacman -S mate-polkit 
+nohup /usr/lib/mate-polkit/polkit-mate-authentication-agent-1&
+nvim .config/niri/config.kdl 
+sudo pacman -S xsatellite gparted
+sudo pacman -S xwayland-satellite gparted
+gparted 
+sudo pacman -S xhost
+sudo pacman -S xorg-xhost
+gparted 
+gparted 
+sudo gparted 
+exit
+yay -S pycharm visual-studio-code-bin
+clear
+exit
+sudo usermod -c"Arka Sarkar" arka
+sudo -E nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+sudo pacman -S upower
+killall noctalia
+nohup noctalia&
+clear
+exit
+exit
+sudo pacman -S wl-clipboard 
+sudo pacman -S thunderbird libreoffice-fresh eog evince spotify-launcher cheese zbar
+sudo pacman -S thunderbird libreoffice-fresh eog evince spotify-launcher file-roller zbar
+thunar
+sudo pacman -S thunar gvfs
+sudo pacman -S thunar-volman
+
+yay -S cheese
+zbarcam
+yay -S zbar-desktop
+zbarcam-qt
+zbarcam-gtk 
+sudo pacman -S audacity
+sudo pacman -S qjackctl 
+sudo pacman -S sof-firmware
+sudo pacman -S pavucontrol
+sudo pacman -Rncs qjackctl
+sudo pacman -Rncs pavucontrol 
+exit
+sudo pacman -S gnu-free-fonts 
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-emoji
+sudo mkdir /usr/share/wallpapers
+sudo ln -s
+sudo ln --help
+sudo ln -s Pictures/archlinux.png /usr/share/wallpapers/
+ls /usr/share/wallpapers/ -lah
+sudo ln -s ../../../home/arka/Pictures/archlinux.png /usr/share/wallpapers/
+sudo ln -sf ../../../home/arka/Pictures/archlinux.png /usr/share/wallpapers/
+ls /usr/share/wallpapers/ -lah
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+ls /usr/share/wallpapers/ -lah
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+sudo cp --dereference /home/arka/Pictures/archlinux.png /usr/share/wallpapers/
+sudo cp --dereference --force /home/arka/Pictures/archlinux.png /usr/share/wallpapers/
+sudo rm /usr/share/wallpapers/archlinux.png 
+sudo cp --dereference --force /home/arka/Pictures/archlinux.png /usr/share/wallpapers/
+fprintd-enroll -f right-index-finger $USER
+fprintd-enroll -f left-index-finger $USER
+sudo nvim /etc/pam.d/login 
+sudo nvim /etc/pam.d/system-auth 
+sudo nvim /etc/pam.d/lightdm
+sudo nvim /etc/pam.d/system-auth 
+exit
+sudo systemctl enable --now bluetooth.service 
+exit
+sudo pacman -S accountsservice 
+sudo -i
+sudo -i
+sudo -E nvim /var/lib/AccountsService/users/arka
+sudo pacman -S mpv-mpris
+nvim play.sh
+chmod +x play.sh 
+./play.sh 
+sudo crontab -e -u arka
+sudo ln -sf nvim /usr/bin/vi
+sudo crontab -e -u arka
+sudo -E crontab -e -u arka
+sudo systemctl enable --now cronie.service 
+journalctl -xb cronie
+journalctl cronie
+journalctl --help
+clear
+echo $DISPLAY
+echo $WAYLAND_DISPLAY
+sudo pacman -S ffmprg
+sudo pacman -S ffmpeg
+exit
+nvim play.sh 
+./play.sh 
+nvim play.sh 
+./play.sh 
+nvim play.sh 
+./play.sh 
+./play.sh 
+exit
+nvim play.sh 
+nvim play.sh 
+./play.sh 
+./play.sh 
+AAAAAAAA
+./play.sh 
+nvim play.sh 
+./play.sh 
+nvim play.sh 
+./play.sh 
+nvim play.sh 
+./play.sh 
+nvim play.sh 
+./play.sh 
+./play.sh 
+echo $?
+exit
+nvim play.sh 
+./play.sh 
+sudo pacman -S wlsunset
+nvim .config/niri/config.kdl 
+./play.sh 
+#1788613283
+nvim .bashrc
+#1788613317
+which s
+#1788613322
+echo $?
+#1788613326
+nvim .bashrc
+sudo pacman -S mousepad
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+#1788613348
+pwd
+#1788617215
+sudo pacman -S gucharmap 
+#1788692312
+sudo nvim /etc/pacman.conf 
+#1788692242
+sudo pacman -Syu
+#1788692400
+sudo pacman -Syu
+#1788692713
+lsusb
+#1788692722
+sudo pacman -S usbutils 
+#1788692729
+lsusb
+#1788692743
+dmesg | grep -i usb
+#1788692747
+sudo dmesg | grep -i usb
+#1788692906
+sysctl -a
+#1788692965
+yay -S libfprint-egismoc-sdcp-git
+#1788693147
+sudo pacman -S python3-gi
+#1788693149
+sudo pacman -S python-gi
+#1788693154
+sudo pacman -S gi
+#1788693184
+ython -c "import gi; print(gi.__file__)"
+#1788693188
+python -c "import gi; print(gi.__file__)"
+#1788693239
+sudo pacman -S python3-gobject
+#1788693242
+sudo pacman -S python-gobject
+#1788693302
+cat .bash_history 
+#1788693308
+yay -S libfprint-egismoc-sdcp-git
+#1788695906
+sudo nvim /etc/kernel/cmdline 
+#1788695940
+sudo mkinitcpio -P
+#1788695983
+sudo dmesg | grep -i usb
+#1788696039
+yay -S libfprint-egismoc-sdcp-git
+#1788696335
+yay -S --editmenu libfprint-egismoc-sdcp-git
+#1788696361
+# or for paru: paru -S --fm libfprint-egismoc-sdcp-git
+#1788696377
+yay -S --editmenu libfprint-egismoc-sdcp-git
+#1788696460
+reboot
+#1788696499
+sudo dmesg | grep -i usb
+#1788696504
+reboot
+#1788696566
+sudo dmesg | grep -i usb
+#1788696810
+sudo dmesg -w
+#1788696893
+lsusb | grep -i "LighTuning"
+#1788696924
+sudo dmesg | grep -i usb
+#1788696931
+lsusb
+#1788696909
+sudo nvim /etc/udev/rules.d/99-egis-fingerprint.rules
+#1788696957
+ls /etc/udev/rules.d/
+#1788696964
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1788696980
+reboot
+#1788696968
+sudo nvim /etc/udev/rules.d/99-egis-fingerprint.rules
+#1788712749
+sudo dmesg -w
+#1788712764
+sudo dmesg | grep --color EGIS
+#1788712771
+sudo dmesg | grep --color disconnect
+#1788712780
+sudo dmesg | grep --color usb
+#1788712798
+cat /proc/cmdline
+#1788718818
+./play.sh 
+#1788718826
+nvim play.sh 
+#1788718879
+./p
+#1788718881
+./play.sh \
+#1788718887
+nvim play.sh 
+#1788718900
+./play.sh \
+#1788718904
+./play.sh
+#1788719380
+datw
+#1788719382
+date
+#1788719432
+date +%I
+#1788719437
+./play.sh 
+#1788719457
+nvim play.sh 
+#1788719474
+./play.sh 
+#1788719481
+[A
+#1788719483
+./play.sh 
+#1788719495
+nvim play.sh 
+#1788719518
+./play.sh 
+#1788719527
+nvim play.sh 
+#1788719544
+nohup ./play.sh&
+#1788719570
+killall mpv\
+#1788719595
+nohup ./play.sh&
+#1788720896
+sudo dmesg | grep -i --color usb
+#1788720912
+poweroff
+#1788759208
+cat /etc/udev/rules.d/
+#1788759211
+cat /etc/udev/rules.d/99-egis-fingerprint.rules 
+#1788759231
+lsusb
+#1788759352
+sudo nvim /etc/kernel/cmdline 
+#1788759398
+sudo mkinitcpio -P
+#1788759405
+reboot
+#1788759447
+sudo dmesg | grep -i --color usb
+#1788759485
+cat /proc/cmdline
+#1788759527
+sudo dmesg | grep -i --color 1c7a
+#1788759541
+sudo dmesg | grep -i --color 0587
+#1788759546
+sudo dmesg | grep -i --color disconnect
+#1788759561
+sudo dmesg | grep -i --color 0587
+#1788759565
+sudo dmesg | grep -i --color disconnect
+#1788759573
+sudo dmesg -w | grep -i --color disconnect
+#1788759591
+cat /proc/cmdline
+#1788759609
+sudo nvim /etc/kernel/cmdline 
+#1788759685
+sudo pacman -S tlp
+#1788759718
+sudo -E /etc/tlp.d/fprint.conf
+#1788759730
+sudo -E nvim /etc/tlp.d/README 
+#1788759812
+lsusb
+#1788759742
+sudo -E nvim /etc/tlp.conf 
+#1788759827
+sudo systemctl enable tlp
+#1788759830
+sudo systemctl enable tlp --now
+#1788759842
+sudo systemctl enable tlp
+#1788759845
+sudo -E nvim /etc/tlp.conf 
+#1788759891
+cat /etc/udev/rules.d/99-egis-fingerprint.rules 
+#1788759910
+lsusb
+#1788759930
+sudo nvim /etc/udev/rules.d/99-egis-fingerprint.rules 
+#1788759981
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1788759983
+reboot
+#1788760026
+sudo dmesg -w | grep -i --color disconnect
+#1788760134
+sudo dmesg -w | grep -i --color usb
+#1788760408
+lsusb
+#1788760370
+sudo -E nvim /etc/tlp.conf
+#1788760437
+sudo systemctl restart tlp
+#1788760443
+sudo dmesg -w | grep -i --color disconnect
+#1788760159
+sudo nvim /etc/udev/rules.d/99-egis-fingerprint.rules 
+#1788760456
+sudo -E nvim /etc/tlp.conf
+#1788760520
+sudo nvim /etc/udev/rules.d/99-egis-fingerprint.rules 
+#1788760557
+yay -S --editmenu libfprint-egismoc-sdcp-git
+#1788760592
+sudo pacman -S curl wget less
+#1788760605
+sudo pacman -S man-db man-pages --needed
+#1788760613
+yay -S --editmenu libfprint-egismoc-sdcp-git
+#1788760703
+sudo dmesg -w | grep -i --color disconnect
+#1788760758
+sudo grep -i /etc/tlp.conf USB_DENYLIST
+#1788760772
+sudo grep -i USB_DENYLIST /etc/tlp.conf
+#1788760776
+lsusb
+#1788760826
+sudo mv /etc/udev/rules.d/99-egis-fingerprint.rules /etc/udev/rules.d/01-egis-fingerprint.rules 
+#1788760837
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1788760841
+reboot
+#1788760879
+sudo dmesg -w | grep -i --color disconnect
+#1788761193
+sudo systemctl disable --now tlp
+#1788761201
+sudo pacman -Rcns tlp
+#1788761222
+sudo nvim /etc/kernel/cmdline 
+#1788761265
+sudo mkinitcpio -P
+#1788761278
+reboot
+#1788761322
+cat /proc/cmdline
+#1788761329
+sudo dmesg -w | grep -i --color disconnect
+#1788761855
+systemctl suspend
+#1788762278
+echo $RANDOM
+#1788762281
+systemctl suspend
+#1788762286
+echo $RANDOM
+#1788762292
+echo $RANDOM%100
+#1788762298
+echo $RANDOM%100))
+#1788762306
+echo $(( $RANDOM%100 ))
+#1788762317
+shuf
+#1788762333
+shuf -i 1-6
+#1788762338
+shuf -i 1-6 -n 1
+#1788762345
+shuf -i 1-6
+#1788762346
+shuf -i 1-6 -n 1
+#1788762397
+head -n 6 /dev/urandom
+#1788762401
+head -c 6 /dev/urandom
+#1788762407
+head -c 6 /dev/urandom && echo
+#1788762421
+head -c 6 /dev/urandom | base32 && echo
+#1788762425
+head -c 6 /dev/urandom | base64 && echo
+#1788762434
+head -c 2 /dev/urandom | base64 && echo
+#1788762440
+head -c 3 /dev/urandom | base64 && echo
+#1788762444
+head -c 4 /dev/urandom | base64 && echo
+#1788762455
+head -c 1 /dev/urandom | base64 && echo
+#1788762463
+head -n 1 /dev/urandom | base64 && echo
+#1788762482
+head -c 4 /dev/urandom | base64 && echo
+#1788762538
+head -c 4 /dev/urandom | tr -cd '[:print:]' && echo
+#1788762555
+head -c 6 /dev/urandom | tr -cd '[:print:]' && echo
+#1788762596
+head -c 6 /dev/urandom | tr -cd '[:number:]' && echo
+#1788762599
+head -c 6 /dev/urandom | tr -cd '[:num:]' && echo
+#1788762624
+man tr
+#1788762639
+head -c 6 /dev/urandom | tr -cd '[:digit:]' && echo
+#1788762651
+head -c 6 /dev/urandom | base64 | tr -cd '[:digit:]' && echo
+#1788762661
+head -n 1 /dev/urandom | base64 | tr -cd '[:digit:]' && echo
+#1788763582
+cd arrays-as-arguments/
+#1788763589
+gcc max-line-len.c -o max-line-len
+#1788763593
+./max-line-len 
+#1788763721
+gcc max-line-len.c -o max-line-len
+#1788763724
+cd ..
+#1788763725
+gcc max-line-len.c -o max-line-len
+#1788763728
+./max-line-len 
+#1788763821
+gcc max-line-len.c -o max-line-len
+#1788763965
+gcc atoi.c -o atoi
+#1788763969
+./atoi
+#1788764043
+mv atoi.c string-to-num.c
+#1788764048
+mv atoi string-to-num
+#1788764452
+cd ..
+#1788764459
+mkdir strings
+#1788764465
+code strings
+#1788764502
+code C_Codes/functions/
+#1788764607
+ldd string-to-num
+#1788764624
+ldd /usr/lib64/ld-linux-x86-64.so.2
+#1788764632
+readelf /usr/lib64/ld-linux-x86-64.so.2
+#1788764640
+readelf -s /usr/lib64/ld-linux-x86-64.so.2
+#1788764657
+strings' /usr/lib64/ld-linux-x86-64.so.2
+
+#1788764667
+strings /usr/lib64/ld-linux-x86-64.so.2
+#1788765215
+zbarcam-qt
+#1788765223
+zbarcam-gtk
+#1788777054
+nvim play.sh 
+#1788779693
+./play.sh 
+#1788779697
+nvim play.sh 
+#1788779714
+./play.sh 
+#1788779773
+nvim play.sh 
+#1788779850
+./play.sh
+#1788779893
+echo $?
+#1788779896
+man trap
+#1788779969
+sudo pacman -S tldr
+#1788779974
+tldr
+#1788779979
+tldr ls
+#1788780022
+tldr
+#1788780032
+tldr -u
+#1788780040
+tldr trap
+#1788780049
+tldr
+#1788780053
+trap
+#1788780055
+tldr
+#1788780057
+tldr trap
+#1788780081
+tldr -l
+#1788780091
+tldr -l | grep -i int
+#1788780106
+gprintf
+#1788780111
+printenv
+#1788780182
+ls /org
+#1788780184
+ls /
+#1788780189
+ls / -lah
+#1788780195
+cd /
+#1788780197
+cd ..
+#1788780203
+cd .
+#1788780212
+tree
+#1788780256
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+#1788780273
+find . -print
+#1788780281
+sudo find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+#1788780292
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//──/g' -e 's/─/├/' -e '$s/├/└/'
+#1788780307
+ls -R | grep ":$"
+#1788780312
+sudo ls -R | grep ":$"
+#1788780317
+sudo ls -R
+#1788780323
+sudo ls -R | grep ":$"
+#1788780337
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//──/g' -e 's/─/├/' -e '$s/├/└/'
+#1788780356
+sudo pacman -S tree
+#1788780359
+tree
+#1788780366
+sudo tree
+#1788780375
+time sudo tree
+#1788780445
+sudo pacman -S tree | less
+#1788780457
+tree | less
+#1788780462
+tree | less -R
+#1788780511
+less --help
+#1788780522
+tldr less
+#1788780548
+ls --color=always | less -R
+#1788780554
+ls --color=always | less
+#1788780577
+cd
+#1788780579
+cd /
+#1788780581
+ls --color=always | less
+#1788780589
+ls --color=always
+#1788780596
+ls --color=always | less -R
+#1788780674
+echo $LESS
+#1788780696
+export CLICOLOR_FORCE=1
+#1788780705
+ls | less
+#1788780712
+ls --color | less
+#1788780720
+tree | less
+#1788780728
+cd
+#1788780730
+tree | less
+#1788780738
+cd /
+#1788780739
+tree | less
+#1788780759
+cd /
+#1788780786
+export CLICOLOR_FORCE=1
+#1788780793
+sudo tree | less
+#1788780887
+export CLICOLOR_FORCE=1
+#1788780889
+tree | less
+#1788780941
+ls --color | xxd
+#1788780946
+sudo pacman -S xxd
+#1788780961
+ls --color | xxd
+#1788780983
+ls --color | less
+#1788780990
+tree
+#1788780992
+cd /
+#1788780996
+tree | less
+#1788781009
+tree --color=always
+#1788781017
+tree --selinux
+#1788781025
+tree
+#1788781056
+trap "trapped SIGKILL" KILL
+#1788781066
+tree
+#1788781077
+trap "trapped SIGINT" INT
+#1788781079
+tree
+#1788781087
+trap "trapped SIGINT" INT
+#1788781094
+poweroff
+#1788783202
+sudo dmesg -w | grep usb
+#1788849303
+3;9u
+#1788849310
+3;
+#1788849313
+3
+#1788849315
+2
+#1788849316
+1
+#1788849317
+4
+#1788849318
+5
+#1788849318
+6
+#1788849320
+0
+#1788849322
+9
+#1788849328
+1
+#1788849330
+12
+#1788849333
+3
+#1788849335
+2
+#1788849338
+dir
+#1788849341
+2
+#1788849348
+cd C_Codes/
+#1788849349
+1
+#1788849351
+2
+#1788866986
+ls -lah
+#1788866993
+cat .xsession-errors
+#1788867048
+cat .jackdrc 
+#1788867068
+sudo pacman -S pipewire-jack
+#1788867289
+cd C_Codes/
+#1788867293
+mkdir tut6
+#1788867300
+code tut6 && exit
+#1788868289
+cd C_Codes/
+#1788868293
+cd sorting-algorithms/
+#1788868297
+cd selection-sort/
+#1788868299
+cat num-sort
+#1788868302
+cat num-sort.c
+#1788868326
+cd ../insertion-sort/
+#1788868327
+cat num-sort.c
+#1788868516
+code num-sort.c
+#1788868525
+code num-sort.c --new-window
+#1788868776
+code --new-window C_Codes/sorting-algorithms/
+#1788875764
+sudo pacman -Syu
+#1788878136
+sudo pacman -Syyu
+#1788878189
+yay -S mysql
+#1788878207
+git clone https://aur.archlinux.org/mysql.git
+#1788878215
+cd mysql
+#1788878246
+makepkg -si
+#1788878355
+sudo pacman -S gnome-keyring
+#1788878363
+makepkg -si
+#1788878376
+gpg --recv-keys B7B3B788A8D3785C
+#1788878619
+git clone https://aur.archlinux.org/mysql-bin.git
+#1788878636
+rm mysql-bin/
+#1788878639
+rm mysql-bin/ -r
+#1788878381
+makepkg -si
+#1788878713
+btop
+#1788881604
+sudo pacman -S mysql-workbench
+#1788881626
+cd
+#1788881636
+sudo rm -rf /var/lib/mysql
+#1788881649
+sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#1788881676
+sudo systemctl enable --now mysqld
+#1788881685
+mysql -u root -p
+#1788881813
+sudo rm -rf /var/lib/mysql
+#1788881815
+sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#1788881830
+mysql -u root -p
+#1788881887
+sudo systemctl restart mysqld
+#1788882072
+mysql -u root -p
+#1788882226
+sudo pacman -S seahorse
+#1788883859
+cd /usr/share/applications/
+#1788883875
+sudo cp code.desktop 01-code.desktop
+#1788883886
+sudo nvim 01-code.desktop
+#1788883954
+sudo cp code-url-handler.desktop 01-code-url-handler.desktop
+#1788883961
+sudo nvim 01-code-url-handler.desktop 
+#1788884032
+sudo pacman -S gnome-libsecret
+#1788884036
+sudo pacman -S libsecret
+#1788885019
+killall mpv
+#1788885962
+yay -h
+#1788886003
+yay -a mysql
+#1788886122
+yay -Syu
+#1788886292
+yay -Syu --editmenu
+#1788886594
+cd .cache/yay/libfprint-egismoc-sdcp-git/
+#1788886602
+nvim PKGBUILD 
+#1788886721
+bsdtar
+#1788886726
+man bsdtar
+#1788888333
+nvim play.sh 
+#1788888359
+./play.sh 
+#1788888406
+nvim play.sh 
+#1788888582
+dd
+#1788888599
+time dd
+#1788929949
+sudo dmesg -w
+#1788930138
+cat /proc/cmdline
+#1788930180
+cat /sys/module/usbcore/parameters/autosuspend
+#1788930282
+sudo dmesg -w
+#1788930421
+systemctl hibernate
+#1788930516
+sudo nvim /etc/kernel/cmdline 
+#1788930545
+sudo mkinitcpio -P
+#1788930561
+sudo nvim /etc/mkinitcpio.conf
+#1788930576
+sudo mkinitcpio -P
+#1788930782
+systemctl hibernate
+#1788931339
+sudo systemctl hibernate
+#1788936719
+nvim play.sh 
+#1788936754
+killall mpv
+#1788936745
+./play.sh 
+#1788936785
+echo $?
+#1788936790
+cat play.sh 
+#1788936806
+nvim play.sh
+#1788936822
+cat play.sh 
+#1788936824
+./play.sh 
+#1788936842
+pkill --help
+#1788936855
+pkill -t
+#1788936861
+pkill -TERM
+#1788936863
+pkill -TERM s
+#1788936899
+pkill -TERM mpv
+#1788936922
+pkill -INT mpv
+#1788936911
+./play.sh 
+#1788936935
+btop
+#1788936976
+./play.sh 
+#1788937090
+pkill -3
+#1788937098
+pkill -3 mpv
+#1788937065
+nvim play.sh
+#1788937106
+./play.sh 
+#1788937121
+pkill -4 mpv
+#1788937132
+pkill -9 mpv
+#1788937158
+pkill -5 mpv
+#1788937163
+pkill -6 mpv
+#1788937168
+pkill -7 mpv
+#1788937174
+pkill -8 mpv
+#1788937178
+pkill -9 mpv
+#1788937187
+pkill -10 mpv
+#1788937191
+pkill -11 mpv
+#1788937154
+./play.sh 
+#1788937441
+pkill -9 play.sh
+#1788937465
+pkill -3 play.sh
+#1788937482
+btop
+#1788937560
+pkill -2 play.sh
+#1788937569
+pkill -11 play.sh
+#1788937558
+./play.sh 
+#1788937612
+pkill -2 play.sh
+#1788937620
+kill -2 play.sh
+#1788937627
+btop
+#1788937643
+kill -2 8776
+#1788937659
+ps aux play.sh
+#1788937664
+ps aux
+#1788937674
+btop
+#1788937723
+kill -9 8945
+#1788937679
+./play.sh
+#1788937737
+nvim play.sh 
+#1788937754
+btop
+#1788937770
+kill 9215
+#1788937772
+btop
+#1788937779
+kill 9216
+#1788937751
+./play.sh 
+#1788937827
+kill -15 9508
+#1788937862
+kill -2 9627
+#1788937961
+kill -15 -9933
+#1788937971
+nvim play.sh 
+#1788938072
+kill -15 -10123
+#1788938062
+./play.sh 
+#1788938088
+kill -10188
+#1788938095
+kill -9 -10188
+#1788938101
+nvim play.sh 
+#1788938209
+./play.sh 
+#1788938421
+nvim .config/kitty/kitty.conf 
+#1788938450
+./play.sh 
+#1788938673
+pycharm 
+#1788939268
+python positional-arguments.py 1 2
+#1788939351
+python positional-arguments.py 313 23k
+#1788939356
+python positional-arguments.py 313 232
+#1788939375
+btop
+#1788939513
+nvim .config/niri/config.kdl 
+#1788939604
+niri validate
+#1788939614
+nvim .config/niri/config.kdl 
+#1788939887
+sudo pacman -S mpd
+#1788939893
+sudo pacman -S mpd mpc
+#1788939915
+systemctl enable --now --user mpd
+#1788939929
+ls .config
+#1788939939
+mkdir .config/mpd
+#1788939951
+nvim .config/mpd/mpd.conf
+#1788939973
+mpc
+#1788940034
+nvim .config/mpd/mpd.conf
+#1788940052
+mpc
+#1788940053
+nvim .config/mpd/mpd.conf
+#1788940180
+cp /usr/share/doc/mpd/mpdconf.example .config/mpd/mpd.conf 
+#1788940185
+nvim .config/mpd/mpd.conf
+#1788940537
+mpc update
+#1788940540
+nvim .config/mpd/mpd.conf
+#1788940554
+mkdir .mpd
+#1788940557
+mpc update
+#1788940630
+nvim .config/mpd/mpd.conf
+#1788940698
+mpd .config/mpd/mpd.conf 
+#1788940717
+mpc update
+#1788940719
+mpd .config/mpd/mpd.conf 
+#1788940729
+nvim .config/mpd/mpd.conf
+#1788940741
+mpd .config/mpd/mpd.conf 
+#1788940743
+nvim .config/mpd/mpd.conf
+#1788940791
+mpd .config/mpd/mpd.conf 
+#1788940793
+nvim .config/mpd/mpd.conf
+#1788940804
+mpd .config/mpd/mpd.conf 
+#1788940814
+sudo systemctl restart mpd
+#1788940824
+journalctl -xeu mpd.service
+#1788940834
+fuser
+#1788940849
+fuser -n tcp:6600
+#1788940864
+fuser -n tcp 6600
+#1788940868
+fuser -n tcp 6600 -v
+#1788940877
+sudo systemctl stop mpd
+#1788940878
+fuser -n tcp 6600 -v
+#1788940890
+killall mpd
+#1788940900
+systemctl start mpd
+#1788940909
+systemctl start mpd --user
+#1788940919
+mpc update
+#1788940951
+ncursesw6-config
+#1788940962
+sudo pacman -S ncmpcpp
+#1788940969
+ncmpcpp 
+#1788940998
+nvim .config/mpd/mpd.conf
+#1788941019
+mv Music/ music/
+#1788941022
+nvim play.sh 
+#1788941041
+systemctl restart --user mpd
+#1788941048
+mpc update
+#1788941121
+ls ~/music
+#1788941187
+mpc ls
+#1788941196
+ncmpcpp 
+#1788941219
+systemctl stop --user mpd
+#1788941222
+mpd --no-daemon --stderr --verbose
+#1788941271
+ncmpcpp 
+#1788941280
+nvim .config/mpd/mpd.conf 
+#1788941378
+playerctl --player=mpd
+#1788941386
+sudo pacman -S playerctl
+#1788941392
+playerctl --player=mpd
+#1788941435
+fuser -n tcp 6600 -v
+#1788941456
+mpc
+#1788941513
+rm .config/mpd/mpd.conf && nvim .config/mpd/mpd.conf 
+#1788941707
+systemctl restart --user mpd
+#1788941711
+mpc update
+#1788941717
+mpc ls
+#1788941782
+mpc status
+#1788941790
+mpc add 
+#1788941801
+mpc
+#1788941804
+mpc add s
+#1788941808
+mpc add music/
+#1788941816
+mpc add ~/music
+#1788941880
+nvim .config/mpd/mpd.conf 
+#1788941908
+nvim .bashrc
+#1788941919
+systemctl restart --user mpd
+#1788941927
+journalctl --user -xeu mpd.service
+#1788941939
+nvim .bashrc
+#1788941967
+nvim .config/mpd/mpd.conf 
+#1788941979
+systemctl restart --user mpd
+#1788941985
+mpc update
+#1788941994
+fuser -n tcp 6600 -v
+#1788942005
+ncmpcpp 
+#1788942050
+systemctl status mpd --user
+#1788942070
+nvim .config/mpd/mpd.conf 
+#1788942078
+systemctl status mpd --user
+#1788942082
+systemctl restart --user mpd
+#1788942083
+systemctl status mpd --user
+#1788942098
+ncmpcpp 
+#1788942159
+mpc add ~/music
+#1788942163
+mpc add ~/music/*
+#1788942164
+mpc add ~/music
+#1788942166
+ncmpcpp 
+#1788942265
+mpc
+#1788942272
+mpc update
+#1788942279
+ncmpcpp 
+#1788942358
+sudo dmesg -w
+#1788942376
+mpc
+#1788942402
+journalctl --user -xeu mpd.service
+#1788942419
+journalctl --user mpd.service
+#1788942426
+journalctl -xeu --user mpd.service
+#1788942431
+journalctl -xeu mpd.service
+#1788942439
+journalctl --user -xeu mpd.service
+#1788942479
+poweroff
+#1788943991
+ls .mpd
+#1788943996
+ls .mpd/state
+#1788944000
+cat .mpd/state
+#1788943979
+ncmpcpp 
+#1788944412
+cd .cache/yay/
+#1788944447
+cd libfprint-egismoc-sdcp-git/
+#1788944546
+nvim PKGBUILD 
+#1788944273
+yay -Syu
+#1788944809
+ncmpcpp 
+#1788944987
+nvim .cache/yay/libfprint-egismoc-sdcp-git/PKGBUILD 
+#1788945075
+ncmpcpp 
+#1788945170
+mkdir .mpd/playlists
+#1788945179
+nvim .config/mpd/mpd.conf 
+#1788945210
+systemctl restart --user mpd
+#1788945215
+mpc update
+#1788945220
+ncmpcpp
+#1788945085
+man ncmpcpp
+#1788944959
+yay -Syu
+#1788945307
+man ncmpcpp
+#1788945324
+ncmpcpp
+#1788945412
+nvim .cache/yay/libfprint-egismoc-sdcp-git/PKGBUILD 
+#1788945558
+sudo pacman -S mpd-mpris 
+#1788945899
+cd binary-search/
+#1788945951
+chmod +x num-search
+#1788945953
+./num-search 
+#1788946176
+gcc num-search.c -o num-search
+#1788946179
+./num-search 
+#1788945372
+yay -Syu
+#1788946429
+cd binary-search/
+#1788946438
+./num-search 
+#1788946540
+gcc num-search.c -o num-search
+#1788946545
+./num-search 
+#1788946626
+gcc num-search.c -o num-search
+#1788946627
+./num-search 
+#1788946693
+gcc num-search.c -o num-search
+#1788946694
+./num-search 
+#1788946787
+gcc num-search.c -o num-search
+#1788946788
+./num-search 
+#1788946846
+gcc num-search.c -o num-search
+#1788946847
+./num-search 
+#1788947346
+gcc num-search.c -o num-search
+#1788947348
+./num-search 
+#1788945676
+ncmpcpp
+#1788956555
+systemctl disable --now --user mpd
+#1788956567
+sudo pacman -S mpd-mpris
+#1788956579
+systemctl enable --now --user mpd
+#1788956586
+mpc
+#1788956598
+playerctl --play=mpc
+#1788956602
+playerctl --player=mpc
+#1788956604
+playerctl --player=mpd
+#1788956619
+playerctl
+#1788956624
+playerctl play
+#1788956632
+playerctl play --player=mpc
+#1788956634
+playerctl play --player=mpd
+#1788956641
+playerctl -a
+#1788956657
+playerctl -l
+#1788956665
+ncmpcpp
+#1788956766
+systemctl disable --now --user mpd
+#1788956775
+systemctl enable --now --user mpd-mpris.service 
+#1788956790
+journalctl --user -xeu mpd-mpris.service
+#1788956809
+reboot
+#1788956848
+systemctl --failed
+#1788956851
+systemctl --failed --user
+#1788956857
+journalctl --user -xeu mpd-mpris.service
+#1788956882
+mpd-mpris 
+#1788956897
+cat .mpd/socket 
+#1788956906
+ls .mpd
+#1788956912
+ls .mpd -lah
+#1788956927
+sudo cat .mpd/socket 
+#1788956934
+sudo cat socket 
+#1788956937
+cd .mpd
+#1788956944
+nvim socket 
+#1788956949
+rm socket 
+#1788956957
+touch socket
+#1788956961
+cd ..
+#1788956965
+mpd-mpris
+#1788956978
+mpd
+#1788956982
+killall mpd
+#1788956998
+mpd
+#1788956999
+mpd-mpris
+#1788957015
+systemctl enable --now --user mpd.service 
+#1788957021
+systemctl enable --now --user mpd-mpris.service 
+#1788957034
+systemctl start --user mpd-mpris.service 
+#1788957040
+mpd-mpris
+#1788957054
+systemctl --user status mpd-mpris.service
+#1788957078
+mpd-mpris -no-instance
+#1788957084
+systemctl --user status mpd-mpris.service
+#1788957089
+reboot
+#1788957124
+systemctl --user status mpd-mpris.service
+#1788957178
+systemctl --user start mpd-mpris.service
+#1788957186
+journalctl --user -xeu mpd-mpris.service
+#1788957199
+btop
+#1788957228
+nohup mpd-mpris -no-instance&
+#1788957242
+btop
+#1788957264
+ncmpcpp
+#1788957310
+ls /usr/lib/systemd/
+#1788957329
+rm -no-instance
+#1788957335
+rm ./-no-instance
+#1788957352
+cat .mpd/socket
+#1788957362
+less .mpd/socket
+#1788957366
+less -f .mpd/socket
+#1788957374
+more .mpd/socket
+#1788957382
+star .mpd/socket
+#1788957387
+stat .mpd/socket
+#1788957421
+less -f .mpd/socket
+#1788957437
+journalctl --user -xeu mpd-mpris.service
+#1788957653
+systemctl --user edit mpd-mpris.service
+#1788957704
+systemctl --user daemon-reload 
+#1788957711
+systemctl --user start mpd-mpris
+#1788957731
+systemctl --user stop mpd-mpris
+#1788957736
+killall mpd-mpris
+#1788957743
+systemctl --user start mpd-mpris
+#1788957531
+journalctl --user -u mpd-mpris.service -b
+#1788957833
+systemctl --user edit mpd.service
+#1788957855
+ls .config
+#1788957859
+ls .config/systemd/
+#1788957861
+ls .config/systemd/user/
+#1788957867
+ls .config/systemd/user/default.target.wants/
+#1788957871
+ls .config/systemd/user/default.target.wants/ -lah
+#1788957892
+ls .config/systemd/user/pipewire-session-manager.service -ahl
+#1788957923
+playerctl --player=mpd
+#1788957926
+playerctl --player=mpd play
+#1788957931
+playerctl --player=mpd next
+#1788970611
+code C_Codes/tut6
+#1788970997
+cd .cache/yay/lib
+#1788971000
+cd .cache/yay/libfprint-egismoc-sdcp-git/
+#1788971078
+nvim PKGBUILD 
+#1788970916
+yay -Syu
+#1788971157
+yay -S code
+#1788971170
+yay -S visual-studio-code-bin
+#1788972853
+gcc alchemist.c -o alchemist
+#1788972858
+./alchemist 
+#1788972974
+gcc alchemist.c -o alchemist
+#1788972975
+./alchemist 
+#1788973052
+gcc alchemist.c -o alchemist
+#1788973053
+./alchemist 
+#1788973093
+gcc alchemist.c -o alchemist
+#1788973094
+./alchemist 
+#1788973176
+gcc alchemist.c -o alchemist
+#1788973177
+./alchemist 
+#1788973222
+gcc alchemist.c -o alchemist
+#1788973223
+./alchemist 
+#1788973289
+gcc alchemist.c -o alchemist
+#1788973290
+./alchemist 
+#1788973395
+gcc alchemist.c -o alchemist
+#1788973396
+./alchemist 
+#1788973628
+ldd alchemist
+#1788973645
+man fabs
+#1788973665
+gcc alchemist.c -o alchemist
+#1788974100
+gcc alter_parity.c -o alter_parity
+#1788974177
+./alter_parity 
+#1788974248
+gcc alter_parity.c -o alter_parity
+#1788974249
+./alter_parity 
+#1788974281
+gcc alter_parity.c -o alter_parity
+#1788974284
+./alter_parity 
+#1788974317
+gcc alter_parity.c -o alter_parity
+#1788974318
+./alter_parity 
+#1788974389
+gcc alter_parity.c -o alter_parity
+#1788974390
+./alter_parity 
+#1788974410
+gcc alter_parity.c -o alter_parity
+#1788974411
+./alter_parity 
+#1788974424
+gcc alter_parity.c -o alter_parity
+#1788974440
+./alter_parity << "4 2 4 6 8"
+#1788974446
+./alter_parity <<< "4 2 4 6 8"
+#1788974459
+./alter_parity <<< "7 2 4 5 8 9 10 2"
+#1788974542
+gcc alter_parity.c -o alter_parity
+#1788974544
+./alter_parity <<< "7 2 4 5 8 9 10 2"
+#1788974546
+./alter_parity <<< "4 2 4 6 8"
+#1788974560
+./alter_parity <<< "5 1 2 3 4 5"
+#1788974572
+gcc alter_parity.c -o alter_parity
+#1788974575
+./alter_parity <<< "7 2 4 5 8 9 10 2"
+#1788974577
+./alter_parity <<< "5 1 2 3 4 5"
+#1788974580
+./alter_parity <<< "4 2 4 6 8"
+#1788977578
+gcc alter_parity.c
+#1788977583
+gcc alter_parity.c -o alter_parity
+#1788977596
+./alter_parity 
+#1788978103
+rm a.out
+#1789005071
+sudo nvim /etc/locale.gen
+#1789005082
+sudo nvim /etc/locale.conf
+#1789005128
+sudo locale-gen
+#1789005135
+sudo nvim /etc/locale.conf
+#1789005148
+reboot
+#1789018939
+gcc longest_seq.c -o longest_seq
+#1789018992
+./longest_seq <<< "aabbcc"
+#1789019000
+strace ./longest_seq <<< "aabbcc"
+#1789019009
+sudo pacman -S strace
+#1789019012
+strace ./longest_seq <<< "aabbcc"
+#1789019051
+strace ./longest_seq <<< "aabbc\"
+
+/
+\s
+a
+"
+#1789019071
+strace ./longest_seq <<< "aabbc"
+#1789019107
+trap "echo 'trapped SIGSEGV'" SEGV
+#1789019108
+strace ./longest_seq <<< "aabbc"
+#1789019116
+./longest_seq <<< "aabbc"
+#1789019150
+gcc longest_seq.c -o longest_seq\
+#1789019255
+gcc longest_seq.c -o longest_seq
+#1789019257
+./longest_seq <<< "aabbc"
+#1789019284
+gcc longest_seq.c -o longest_seq
+#1789019286
+./longest_seq <<< "aabbc"
+#1789019293
+./longest_seq <<< "abc"
+#1789019321
+./longest_seq <<< "aabc"
+#1789019323
+./longest_seq <<< "abc"
+#1789019329
+strace ./longest_seq <<< "abc"
+#1789019337
+starce ./longest_seq <<< "aabc"
+#1789019342
+strace ./longest_seq <<< "aabc"
+#1789019363
+strace ./longest_seq <<< "aabbcc"
+#1789019369
+./longest_seq <<< "aabbcc"
+#1789019372
+./longest_seq <<< "aabbbcc"
+#1789019374
+./longest_seq <<< "aabbbccc"
+#1789019378
+./longest_seq <<< "abbbccc"
+#1789019459
+gcc longest_seq.c -o longest_seq
+#1789019461
+./longest_seq <<< "abbbccc"
+#1789019466
+./longest_seq <<< "aabbbcc"
+#1789019469
+./longest_seq <<< "abbbccc"
+#1789019473
+strace ./longest_seq <<< "aabbcc"
+#1789019480
+./longest_seq <<< "aabbcc"
+#1789019488
+./longest_seq <<< "abc"
+#1789019611
+./longest_seq <<< " "
+#1789019618
+./longest_seq <<< ""
+#1789019641
+gcc longest_seq.c -o longest_seq
+#1789019642
+./longest_seq <<< ""
+#1789019688
+./longest_seq
+#1789019693
+./longest_seq <<< ""
+#1789019708
+./longest_seq <<< "a"
+#1789019720
+AAAAAAAA
+#1789019726
+./longest_seq <<< "aabbbcccc"
+#1789019899
+gcc longest_seq.c -o longest_seq
+#1789019903
+./longest_seq <<< "aabbbcccc"
+#1789019924
+gcc longest_seq.c -o longest_seq
+#1789019926
+./longest_seq <<< "aabbbcccc"
+#1789019928
+./longest_seq <<< "aabbbccc"
+#1789019937
+./longest_seq <<< "aabbbcccd"
+#1789019954
+./longest_seq <<< "xyz"
+#1789019958
+./longest_seq <<< "aabbcc"
+#1789019964
+./longest_seq <<< "abacabaa"
+#1789020178
+gcc longest_seq.c -o longest_seq
+#1789020180
+./longest_seq <<< "abacabaa"
+#1789020184
+./longest_seq <<< "xyz"
+#1789020187
+./longest_seq <<< "aabbbcccc"
+#1789020218
+gcc longest_seq.c -o longest_seq
+#1789020232
+rm char-occurrence.c 
+#1789020240
+rm prob2.c 
+#1789021259
+gcc compare_sorts.c -o compare_sorts
+#1789021342
+./compare_sorts <<< "5 5 1 4 2 8"
+#1789021399
+gcc compare_sorts.c -o compare_sorts
+#1789021401
+./compare_sorts <<< "5 5 1 4 2 8"
+#1789021858
+gcc compare_sorts.c -o compare_sorts
+#1789021860
+./compare_sorts <<< "5 5 1 4 2 8"
+#1789022645
+gcc compare_sorts.c -o compare_sorts
+#1789022646
+./compare_sorts <<< "5 5 1 4 2 8"
+#1789022700
+gcc compare_sorts.c -o compare_sorts
+#1789022701
+./compare_sorts <<< "5 5 1 4 2 8"
+#1789022749
+./compare_sorts <<< "5 1 2 3 4 5"
+#1789023027
+gcc compare_sorts.c -o compare_sorts
+#1789023030
+./compare_sorts <<< "5 1 2 3 4 5"
+#1789023043
+./compare_sorts <<< "5 5 4 3 2 1"
+#1789023313
+gcc alchemist.c -o alchemist
+#1789023319
+./alchemist 
+#1789023346
+gcc alchemist.c -o alchemist
+#1789023356
+./alchemist 
+#1789023990
+gcc alter_parity.c -o alter_parity
+#1789024037
+./alter_parity <<< "5 1 2 3 4 5"
+#1789024043
+./alter_parity <<< "6 1 2 3 4 5 6"
+#1789024047
+./alter_parity <<< "6 1 2 3 4 5 5"
+#1789024057
+cat *.c
+#1789024082
+bat
+#1789024086
+sudo pacman -S bat
+#1789024091
+bat
+#1789024101
+bat *.c
+#1789024644
+/home/arka/C_Codes/enum
+#1789024657
+cd "/home/arka/C_Codes/" && gcc enum.c -o enum && "/home/arka/C_Codes/"enum
+#1789036194
+gcc battalion.c -o battalion
+#1789036218
+./battalion
+#1789037342
+gcc lions_vs_wolves.c -o lions_vs_wolves
+#1789037364
+./lions_vs_wolves <<< "5 2 9 6 1 8 4 10 5 2 7 "
+#1789037369
+./lions_vs_wolves <<< "5 2 9 6 1 8 4 10 5 2 7"
+#1789037428
+gcc lions_vs_wolves.c -o lions_vs_wolves
+#1789037429
+./lions_vs_wolves <<< "5 2 9 6 1 8 4 10 5 2 7"
+#1789056670
+ncmpcpp 
+#1789092094
+sync
+#1789092480
+poweroff
+#1789092609
+sudo dmesg -w
+#1789092634
+cat /proc/cmdline
+#1789092914
+lsusb
+#1789092886
+nvim /etc/modprobe.d/usbcore.conf
+#1789092956
+sudo -E nvim /etc/kernel/cmdline 
+#1789093032
+sudo mkinitcpio -P
+#1789093040
+reboot
+#1789093077
+lsusb
+#1789093102
+sudo dmesg -w
+#1789093230
+cat /proc/cmdline
+#1789093698
+lspci
+#1789093714
+lspci | grep -i --color controller
+#1789093763
+sudo -E nvim /usr/lib/systemd/systemd-sleep 
+#1789093776
+/usr/lib/systemd/systemd-sleep 
+#1789093783
+/usr/lib/systemd/systemd-sleep suspend
+#1789093881
+sudo dmesg -w
+#1789093926
+sudo mkdir /usr/lib/systemd/systemd-sleep/
+#1789094074
+sudo udevadm monitor --kernel --udev
+#1789094163
+lsusb
+#1789094133
+nvim find_sysfs.sh
+#1789094193
+chmod +x find_sysfs.sh 
+#1789094195
+./find_sysfs.sh 
+#1789094247
+echo on | sudo tee /sys/bus/usb/devices/3-6/power/control
+#1789094262
+echo on | sudo tee /sys/bus/usb/devices/3-6/power/control 
+#1789094277
+cat /sys/bus/usb/devices/3-6/power/control 
+#1789094285
+ls /sys/bus/usb/devices/3-6/power/control 
+#1789094288
+ls /sys/bus/usb/devices/3-6/power/control  -lah
+#1789094303
+sudo -E -i
+#1789094308
+sudo -i
+#1789094448
+cat /sys/bus/usb/devices/3-6/power/control 
+#1789094562
+cat /sys/bus/usb/devices/3-6/power/control
+#1789094570
+echo on | sudo tee /sys/bus/usb/devices/3-6/power/control
+#1789094572
+cat /sys/bus/usb/devices/3-6/power/control
+#1789094577
+echo on | sudo tee /sys/bus/usb/devices/3-6/power/control
+#1789094598
+udevadm info -q path -p /sys/bus/usb/devices/3-6
+#1789094736
+ls /etc/systemd/
+#1789094745
+ls /etc/systemd/system
+#1789094757
+sudo mkdir -p /etc/systemd/system-sleep
+#1789094782
+sudo -E nvim /etc/systemd/system-sleep/xhci-reset
+#1789094804
+sudo chmod +x /etc/systemd/system-sleep/xhci-reset
+#1789094821
+readlink -f /sys/bus/usb/devices/usb3
+#1789094806
+sudo -E nvim /etc/systemd/system-sleep/xhci-reset
+#1789094938
+sudo rm /etc/systemd/system-sleep/xhci-reset
+#1789094954
+sudo -E nvim /etc/systemd/system-sleep/ux3402va-xhci
+#1789094976
+sudo chmod 755 /etc/systemd/system-sleep/ux3402va-xhci
+#1789094985
+sudo ls -lah /etc/systemd/system-sleep/ux3402va-xhci
+#1789095019
+sudo journalctl -kf
+#1789095045
+lspci -nnk | grep -A4 -i 'USB controller'
+#1789095065
+readlink -f /sys/bus/usb/devices/usb3
+#1789095070
+lsusb -t
+#1789095108
+clip
+#1789095120
+lspci -nnk | grep -A4 -i 'USB controller' | wl-clip
+#1789095127
+lspci -nnk | grep -A4 -i 'USB controller' | wl-copy
+#1789095161
+readlink -f /sys/bus/usb/devices/usb3 | wl-copy
+#1789095184
+lsusb -t | wl-copy
+#1789108712
+/home/arka/C_Codes/structs
+#1789108753
+cd "/home/arka/C_Codes/" && gcc structs.c -o structs && "/home/arka/C_Codes/"structs
+#1789108929
+/home/arka/C_Codes/structs
+#1789109190
+cd "/home/arka/C_Codes/" && gcc unions.c -o unions && "/home/arka/C_Codes/"unions
+#1789109470
+mkdir Recursion
+#1789109673
+ping 1.1.1.1
+#1789109687
+ping google.com -c 10
+#1789109694
+ping www.google.com -c 10
+#1789109563
+yay -Syu
+#1789110044
+sudo pacman -S fprint
+#1789110075
+yay -Rcns libfprint-egismoc-sdcp-git-debug 
+#1789110656
+cd "/home/arka/C_Codes/Recursion/" && gcc factorial.c -o factorial && "/home/arka/C_Codes/Recursion/"factorial
+#1789110938
+gcc fibonacci.c -o fibonacci
+#1789110943
+./fibonacci <<< "0"
+#1789110946
+./fibonacci <<< "-1"
+#1789110952
+./fibonacci <<< ""
+#1789110955
+./fibonacci <<< "1"
+#1789110957
+./fibonacci <<< "2"
+#1789110961
+./fibonacci <<< "3"
+#1789110963
+./fibonacci <<< "4"
+#1789110965
+./fibonacci <<< "5"
+#1789110967
+./fibonacci <<< "6"
+#1789110969
+./fibonacci <<< "100"
+#1789111016
+time ./fibonacci <<< "10"
+#1789111019
+time ./fibonacci <<< "20"
+#1789111022
+time ./fibonacci <<< "50"
+#1789111079
+time ./fibonacci <<< "30"
+#1789111082
+time ./fibonacci <<< "40"
+#1789111086
+time ./fibonacci <<< "41"
+#1789111129
+gcc fibonacci.c -o fibonacci
+#1789111131
+time ./fibonacci <<< "41"
+#1789111136
+time ./fibonacci <<< "40"
+#1789111147
+time ./fibonacci <<< 30
+#1789111153
+time ./fibonacci <<< 31
+#1789111035
+btop
+#1789112911
+cat .mpd/socket
+#1789112955
+nc
+#1789112957
+socat
+#1789112971
+sudo pacman -S nc
+#1789112891
+ncmpcpp
+#1789113298
+sudo systemctl disable --now mpd-mpris
+#1789113320
+systemctl disable --now --user mpd-mpris.service 
+#1789113415
+gcc alter_parity.c -o alter_parity
+#1789113518
+./alter_parity <<< "4 2 4 6 8"
+#1789113535
+gcc alter_parity.c -o alter_parity
+#1789113545
+./alter_parity <<< "5 1 2 3 4 5"
+#1789113568
+gcc alter_parity.c -o alter_parity
+#1789113569
+./alter_parity <<< "5 1 2 3 4 5"
+#1789118752
+python positional-arguments.py 1 2
+#1789118755
+python positional-arguments.py 3598 1719
+#1789129740
+sudo dmesg -w
+#1789129757
+usbreset
+#1789129771
+usbreset 1c7a:0587
+#1789129776
+sudo usbreset 1c7a:0587
+#1789129797
+usbreset 1c7a:0587
+#1789130500
+sudo nvim /etc/pam.d/lightdm
+#1789130524
+sudo nvim /etc/pam.d/lightdm-autologin 
+#1789130533
+sudo nvim /etc/pam.d/lightdm-greeter 
+#1789130547
+sudo nvim /etc/pam.d/system-login 
+#1789130558
+sudo nvim /etc/pam.d/login
+#1789130576
+sudo pacman -Rcns fprintd
+#1789130585
+reboot
+#1789130881
+sudo -E nvim /etc/udev/rules.d/01-egis-fingerprint.rules 
+#1789130962
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1789130962
+
+#1789130965
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1789130982
+sudo dmesg -w
+#1789131021
+sudo -E nvim /etc/udev/rules.d/01-egis-fingerprint.rules 
+#1789131035
+reboot
+#1789131076
+sudo dmesg -w
+#1789131169
+sudo nvim /etc/kernel/cmdline
+#1789131191
+sudo mkinitcpio -P
+#1789131233
+sudo dmesg -w
+#1789131535
+sudo -E nvim /etc/udev/rules.d/01-egis-fingerprint.rules 
+#1789131573
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1789131587
+lsmod | grep -i egis
+#1789131605
+sudo dmesg | grep -i fingerprint
+#1789131610
+reboot
+#1789131648
+sudo dmesg -w
+#1789131712
+cd /etc/udev/rules.d/
+#1789131723
+sudo mv 01-egis-fingerprint.rules 99-egis-fingerprint.rules
+#1789131731
+sudo -E nvim 99-egis-fingerprint.rules
+#1789131778
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1789131786
+sudo dmesg -w
+#1789131809
+sudo -E nvim 99-egis-fingerprint.rules
+#1789131864
+sudo dmesg -w
+#1789131872
+sudo -E nvim 99-egis-fingerprint.rules
+#1789131887
+sudo -E nvim /etc/udev/rules.d/99-egis-fingerprint.rules
+#1789131904
+sudo udevadm control --reload-rules && sudo udevadm trigger
+#1789131919
+cat /etc/udev/udev.conf 
+#1789131935
+cat /etc/udev/iocost.conf 
+#1789131955
+cd /etc
+#1789131957
+systemd-analyze cat-config udev/iocost.conf
+#1789131976
+cd
+#1789134032
+~~~~~
+#1789134438
+sudo pacman -S python-jupyter-core
+#1789134454
+sudo pacman -S jupyterlab
+#1789134702
+sudo pacman -S python-jupyter-client
+#1789134708
+sudo pacman -S python-jupyterlab-server 
+#1789134728
+sudo pacman -S python-numpy
+#1789134738
+sudo pacman -S blas-openblas 
+#1789135346
+gcc alchemist.c -o alchemist
+#1789138175
+gcc alter_parity.c -o alter_parity
+#1789138186
+./alter_parity <<< "5 1 2 3 4 5"
+#1789138191
+./alter_parity <<< "5 1 2 3 3 5"
+#1789138792
+./alter_parity <<< "5 1 2 4 6 7"
+#1789139003
+./alter_parity <<< "5 2 2 2 2 3"
+#1789139025
+gcc alter_parity.c -o alter_parity
+#1789139027
+./alter_parity <<< "5 2 2 2 2 3"
+#1789139082
+gcc alter_parity.c -o alter_parity
+#1789139083
+./alter_parity <<< "5 2 2 2 2 3"
+#1789139086
+./alter_parity <<< "5 1 2 4 6 7"
+#1789142404
+python lion_vs_wolves.py \
+#1789142408
+python lion_vs_wolves.py
+#1789142609
+df -h
+#1789142616
+lsblk -f
+#1789175380
+cd ..
+#1789175510
+code .
+#1789175560
+touch char-sort-search.c
+#1789177574
+gcc char-sort-search.c 
+#1789177578
+rm a.out
+#1789177593
+gcc char-sort-search.c -o char-sort-search -O2 -march=native -pipe
+#1789177601
+./char-sort-search
+#1789177758
+gcc char-sort-search.c -o char-sort-search -O2 -march=native -pipe
+#1789177760
+./char-sort-search
+#1789177788
+ddacbbacaaad
+#1789177789
+./char-sort-search
+#1789177861
+gcc char-sort-search.c -o char-sort-search -O2 -march=native -pipe
+#1789177862
+./char-sort-search
+#1789177993
+gcc char-sort-search.c -o char-sort-search -O2 -march=native -pipe
+#1789177995
+./char-sort-search
+#1789178115
+gcc char-sort-search.c -o char-sort-search -O2 -march=native -pipe
+#1789178117
+./char-sort-search
+#1789179197
+python
+#1789181250
+yay -S nuitka
+#1789181255
+yay -S nuitka-git
+#1789181394
+yay -S chrpath
+#1789181401
+chrpath
+#1789181422
+nuitka --help
+#1789181470
+nuitka --standalone --onefile char-sort-search.py 
+#1789181487
+sudo pacman -S patchelf
+#1789181491
+nuitka --standalone --onefile char-sort-search.py 
+#1789181534
+./char-sort-search.bin
+#1789181552
+ldd char-sort-search.bin
+#1789181592
+rm -rf char-sort-search.build/ char-sort-search.dist/ char-sort-search.onefile-build/
+#1789181596
+./char-sort-search.bin
+#1789181652
+./char-sort-search.bin <<< "ddacbbacaaad a"
+#1789181659
+./char-sort-search.bin <<< "ddacbbacaaad"
+#1789181674
+./char-sort-search.bin <<< "ddacbbacaaad\na"
+#1789181685
+./char-sort-search.bin <<< "ddacbbacaaad" "a"
+#1789181702
+time ./char-sort-search.bin
+#1789181730
+time python char-sort-search.py
+#1789182011
+ipython
+#1789182270
+yay -Rcns chrpath
+#1789182293
+python char-sort-search.py <<< "ddacbbacaaad a"
+#1789182296
+python char-sort-search.py <<< "ddacbbacaaad"
+#1789182302
+python char-sort-search.py <<< "ddacbbacaaad""a"
+#1789182311
+python char-sort-search.py <<< "ddacbbacaaad" "a"
+#1789182339
+python char-sort-search.py <<< $(echo ddacbbacaaad; echo a)
+#1789182352
+python char-sort-search.py <<< $(echo mississippi; echo s)
+#1789182367
+nuitka --standalone --onefile char-sort-search.py
+#1789182396
+rm char-sort-search.build/ char-sort-search.dist/ char-sort-search.onefile-build/
+#1789182399
+rm char-sort-search.build/ char-sort-search.dist/ char-sort-search.onefile-build/ -rf
+#1789182409
+time python char-sort-search.py <<< $(echo mississippi; echo s)
+#1789182421
+time char-sort-search.bin <<< $(echo mississippi; echo s)
+#1789182428
+time ./char-sort-search.bin <<< $(echo mississippi; echo s)
+#1789182432
+time python char-sort-search.py <<< $(echo mississippi; echo s)
+#1789182515
+cd PycharmProjects/PythonCodes/
+#1789182544
+time python char-sort-search.py <<< $(echo ddacbbacaaad && echo a)
+#1789182556
+time ./char-sort-search.bin <<< $(echo ddacbbacaaad && echo a)
+#1789182569
+readelf
+#1789182573
+readelf char-sort-search.bin
+#1789182576
+readelf char-sort-search.bin -s
+#1789182587
+string char-sort-search.bin
+#1789182590
+strings char-sort-search.bin
+#1789182610
+exiy
+#1789182606
+/proc/self/exe
+#1789182616
+strings char-sort-search.bin
+#1789182637
+systemctl enable pipewire --user
+#1789227896
+mysql
+#1789227900
+mysql -p
+#1789227910
+mysql -p -u root
+#1789231369
+ping www.google.com -c 10
+#1789267140
+sudo pacman -Syu
+#1789267150
+yay -Syu
+#1789267219
+ll
+#1789267318
+sudo dmeventd 
+#1789267322
+sudo dmesg =w
+#1789267324
+sudo dmesg -w
+#1789276434
+./play.sh
+#1789278103
+sudo pacman -S gcc
+#1789279381
+ncmpcpp 
+#1789279519
+cmake-gui
+#1789279526
+cmp
+#1789279528
+cmp 3 4
+#1789279533
+cmp .bashrc
+#1789279547
+cmp .bashrc .bashrc.omb-backup-20260905183114 
+#1789279563
+cmp .bashrc .bash_profile
+#1789279577
+cmp .bashrc play.sh
+#1789279583
+cmp .bashrc .bashrc
+#1789279595
+cmp .bashrc play.sh 2> /dev/null
+#1789279607
+cmp .bashrc play.sh ?> /dev/null
+#1789279616
+cmp .bashrc play.sh > /dev/null
+#1789279630
+cmp .bashrc play.sh > /dev/null if $?; echo vdd
+#1789279644
+cmp .bashrc play.sh > /dev/null ; if $?; then echo vdd
+;
+#1789279652
+cmp .bashrc play.sh > /dev/null ; if $?; then echo vdd; fi
+#1789279663
+cmp .bashrc play.sh > /dev/null ; if [ $? ]; then echo vdd; fi
+#1789279674
+cmp .bashrc play.sh > /dev/null ; if [ $? -eq 0 ]; then echo vdd; fi
+#1789279689
+cmp .bashrc .bashrc > /dev/null ; if [ $? -eq 0 ]; then echo vdd; fi
+#1789280542
+ncmpcpp
+#1789281251
+fzf
+#1789281293
+sudo pacman -S fzf
+#1789281304
+fzf
+#1789281324
+fzf --preview='bat {}'
+#1789281349
+java2html 
+#1789281363
+rm .jackdrc
+#1789281368
+ls .java
+#1789281370
+ls .java/fonts/
+#1789281374
+ls .java/fonts/25.0.4/
+#1789281529
+git --version
+#1789281550
+cd C_Codes/
+#1789281570
+git init
+#1789281595
+git status
+#1789281699
+git config --global user.name "arka-sarkar"
+#1789281738
+git config --global user.email "arkasarkar389@gmail.com"
+#1789281803
+git add < ls
+#1789281813
+git add < $(ls)
+#1789281823
+echo $(ls)
+#1789281836
+git add < $((ls))
+#1789281853
+git add <<< $(ls)
+#1789281865
+git add <<< ls
+#1789281869
+git add *
+#1789281878
+git status
+#1789281911
+git commit -m "C Codes"
+#1789281931
+git log
+#1789281944
+git config --global user.name "Arka Sarkar"
+#1789281946
+git log
+#1789281955
+git config --global user.name "Arka Sarkar"
+#1789281971
+git log
+#1789281976
+cd C_Codes/
+#1789281978
+git log
+#1789282035
+git config user.name "Arka Sarkar"
+#1789282036
+git log
+#1789282042
+cd .git
+#1789282047
+cat COMMIT_EDITMSG 
+#1789282052
+cat HEAD 
+#1789282055
+cat config 
+#1789282084
+cd C_Codes/
+#1789282087
+git commit --amend --reset-author
+#1789282119
+git config user.name "Arka Sarkar"
+#1789282124
+git config --global user.name "Arka Sarkar"
+#1789282126
+git log
+#1789282522
+ssh-keygen -t ed25519 -C "arkasarkar389@gmail.com"
+#1789282611
+eval "$(ssh-agent -s)"
+#1789282631
+ssh-add ~/.ssh/id_ed25519
+#1789282670
+cat ~/.ssh/id_ed25519
+#1789282673
+cat ~/.ssh/id_ed25519.pub 
+#1789282684
+cat ~/.ssh/id_ed25519.pub | wl-copy
+#1789282870
+git clone https://github.com/arka-sarkar/C_Codes.git
+#1789282891
+git clone https://github.com/arka-sarkar/C_Codes.git -o "C-Codes"
+#1789282899
+git clone https://github.com/arka-sarkar/C_Codes.git "C-Codes"
+#1789283000
+rm C-Codes -r
+#1789283016
+git clone https://github.com/arka-sarkar/C_Codes.git C-Codes
+#1789283118
+git clone git@github.com:arka-sarkar/C_Codes.git C-Codes
+#1789283152
+cd C-Codes/
+#1789283155
+git status
+#1789283165
+git log
+#1789283329
+cp -r ../C_Codes/* .
+#1789283339
+git status
+#1789283345
+git add *
+#1789283379
+git commit -m "C Codes written during my course."
+#1789283401
+git status
+#1789283437
+git branch -M main
+#1789283466
+git config --global init.defaultBranch main
+#1789283484
+git push
+#1789283564
+cd ..
+#1789283575
+rm -rf C_Codes/
+#1789283584
+mv C-Codes/ C_Codes/
+#1789283589
+cd C_Codes/
+#1789283590
+code .
+#1789283619
+code . --password-store=gnome-libsecret
+#1789283676
+git commit -M "Small change in condense.c"
+#1789283681
+git commit -m "Small change in condense.c"
+#1789283707
+git commit -a -m "Small change in condense.c"
+#1789283713
+git push
+#1789283774
+git log
+#1789284431
+cd ..
+#1789284436
+cd C_Codes/
+#1789293923
+uptime
+#1789293974
+362u
+#1789294001
+3;9u
+#1789294009
+fzf
+#1789294024
+fzf --preview
+#1789294028
+fzf --preview='ls'
+#1789294046
+fzf --preview='ls -lah {}'
+#1789294136
+yay -Rcns mysql-workbench
+#1789294145
+yay -Rcns mysql-workbench mysql
+#1789294155
+ls -lah
+#1789294164
+rm -rf .mysql
+#1789294182
+yay -Syu
+#1789294231
+du -sh *
+#1789294237
+du -shr *
+#1789294241
+du -sh *
+#1789294247
+mysql
+#1789294272
+sudo pacman -Rcns mysql-clients mysql-debug 
+#1789294276
+mysql
+#1789294284
+cd ..
+#1789294290
+rm -rf mysql/
+#1789294314
+df -h
+#1789301313
+git commit -m "removing a new line in condense.c"
+#1789301323
+git commit -a -m "removing a new line in condense.c"
+#1789301328
+git push
+#1789301442
+git commit -a
+#1789301449
+git commit -a -m ""
+#1789301482
+git commit -a -m "for single line if-else, removing {} in bejewelled-brooch.c"
+#1789301489
+git push
+#1789301668
+git commit -a -m "small change in bejewelled-brooch.c"
+#1789301670
+git push
+#1789301713
+git log
+#1789311806
+cd C_Codes/
+#1789311812
+got
+#1789311813
+git
+#1789311815
+git log
+#1789311822
+ls -lah
+#1789311826
+./unions 
+#1789311837
+bat unions
+#1789311839
+bat unions.
+#1789311842
+bat unions.c
+#1789311855
+./unions 
+#1789311971
+mkdir practice
+#1789311988
+gitstatus
+#1789311990
+git status
+#1789312000
+code practice/
+#1789312030
+code practice/ --password-store='gnome-libsecret'
+#1789313897
+cd ..
+#1789313941
+git commit -a -m "wrote a new code: student grade management system"
+#1789313949
+git add *
+#1789313952
+git commit -a -m "wrote a new code: student grade management system"
+#1789313957
+git push
+#1789320632
+killall play.sh
+#1789362830
+code C_Codes/
+#1789362849
+sudo rm /usr/share/applications/01-code*
+#1789362878
+cat /usr/share/applications/code.desktop 
+#1789363024
+md
+#1789363029
+rd
+#1789363033
+cls
+#1789363036
+alias
+#1789363044
+nano
+#1789363048
+s
+#1789363050
+bm
+#1789363056
+src
+#1789363074
+command
+#1789363076
+command ls
+#1789363079
+command ls -lah
+#1789363083
+command ls -lah --color
+#1789363111
+cd..
+#1789363117
+cd arka/
+#1789363126
+ls .lyrics/
+#1789366730
+cd C_Codes/
+#1789366750
+cd practice/
+#1789366793
+gcc grade-management-system.c -o grade-management-system
+#1789366799
+./grade-management-system 
+#1789366894
+git add *
+#1789366928
+git commit -m "compiled grade-management-system.c"
+#1789366939
+git commit -a -m "compiled grade-management-system.c"
+#1789366943
+git push
+#1789366959
+nvim grade-management-system.c
+#1789367067
+gcc grade-management-system.c -o grade-management-system
+#1789367078
+git commit -a -m "updated grade-management-system.c"
+#1789367084
+git push
+#1789367092
+git log
+#1789367107
+./grade-management-system 
+#1789367130
+nvim grade-management-system.c
+#1789367252
+gcc grade-management-system.c -o grade-management-system
+#1789367257
+git commit -a -m "updated grade-management-system.c"
+#1789367261
+git push
+#1789367271
+./grade-management-system 
+#1789367408
+killall play.sh
+#1789367369
+nvim grade-management-system.c
+#1789367500
+cd practice/
+#1789367505
+./grade-management-system 
+#1789367632
+gcc grade-management-system.c -o grade-management-system
+#1789367634
+./grade-management-system 
+#1789367740
+gcc grade-management-system.c -o grade-management-system
+#1789367743
+./grade-management-system 
+#1789367757
+git commit -a -m "corrected grade-management-system.c"
+#1789367763
+git push
+#1789367772
+./grade-management-system 
+#1789367926
+gcc grade-management-system.c -o grade-management-system
+#1789367929
+git commit -a -m "corrected grade-management-system.c"
+#1789367931
+git push
+#1789367938
+./grade-management-system 
+#1789368044
+gcc grade-management-system.c -o grade-management-system
+#1789368047
+./grade-management-system 
+#1789368137
+gcc grade-management-system.c -o grade-management-system
+#1789368139
+./grade-management-system 
+#1789368308
+gcc grade-management-system.c -o grade-management-system
+#1789368310
+./grade-management-system 
+#1789368622
+gcc grade-management-system.c -o grade-management-system
+#1789368625
+git commit -a -m "corrected grade-management-system.c"
+#1789368630
+git push
+#1789368649
+cd C_Codes/practice/
+#1789368652
+./grade-management-system 
+#1789368699
+nvim grade-management-system.c
+#1789368721
+gcc grade-management-system.c -o grade-management-system
+#1789368728
+git commit -a -m "corrected grade-management-system.c"
+#1789368731
+git push
+#1789368739
+./grade-management-system 
+#1789386589
+yay -Syu
+#1789386612
+sudo pacman -S Rcns opencv
+#1789386618
+sudo pacman -Rcns opencv
+#1789386636
+poweroff
+#1789393810
+ls -lah
+#1789393814
+./play.sh 
+#1789393835
+cat play.sh 
+#1789394390
+dir
+#1789394394
+dir --color
+#1789394397
+dir --color -lah
+#1789399081
+cd ..
+#1789399094
+rm -r recursion/
+#1789399105
+rm -r strings/
+#1789399113
+git push
+#1789399127
+git pull
+#1789399146
+git push
+#1789402201
+lls
+#1789402238
+ls -lah
+#1789402272
+cat .gitconfig 
+#1789402424
+sudo pacman -Rcns pop-icon-theme 
+#1789402467
+sudo pacman -S papirus-icon-theme 
+#1789402282
+ncmpcpp 
+#1789405122
+git init
+#1789405133
+rm .git -r
+#1789405138
+mkdir .git
+#1789405142
+rm .git -r
+#1789438957
+yay -S chatgpt-bin
+#1789438984
+chatgpt
+#1789438993
+yay -S chatgpt-desktop 
+#1789439344
+yay -S apparmor
+#1789439358
+yay -Syu
+#1789439531
+btop
+#1789439546
+killall chatgpt
+#1789439549
+btop
+#1789439560
+killall ChatGPT
+#1789439566
+btop
+#1789439977
+killall ChatGPT
+#1789440014
+btop
+#1789440039
+codex
+#1789440053
+chattr
+#1789440057
+chatgpt
+#1789440213
+killall ChatGPT
+#1789440308
+ls .cache
+#1789440319
+ls .cache/Codesx
+#1789440321
+ls .cache/Codex
+#1789440345
+rm -rf .cache/{Codex,codex-runtimes}
+#1789440350
+ls .cache
+#1789440374
+ls .local/state
+#1789440383
+rm .local/state/codex -rf
+#1789440389
+ls .local/share
+#1789440398
+ls .config
+#1789440406
+ls .config/chatgpt
+#1789440414
+cat .config/chatgpt/config.json 
+#1789440437
+rm .local/state/codex -rf
+#1789440442
+rm -rf .cache/{Codex,codex-runtimes}
+#1789440452
+killall ChatGPT
+#1789440476
+yay -S chatgpt-desktop 
+#1789443918
+sudo du -sh /
+#1789443935
+du -sh /
+#1789443946
+ls /root
+#1789443952
+sudo -E ls /root
+#1789443955
+sudo -E ls /root -lah
+#1789443964
+ls .. -lah
+#1789443981
+./play.sh 
+#1789444014
+kill -15 play.sh
+#1789444018
+kill -15 1731
+#1789444039
+kill -3 2085
+#1789444055
+kill -15 2085
+#1789444067
+kill -INT 2085
+#1789444076
+kill -INT 2262
+#1789443996
+btop
+#1789444121
+kill -KILL 2262
+#1789444137
+kill -KILL 2355
+#1789444113
+./play.sh 
+#1789444150
+kill -KILL 2473
+#1789444164
+btop
+#1789444177
+kill -2 2473
+#1789444183
+kill -2 2568
+#1789444173
+./play.sh 
+#1789444219
+killall play.sh
+#1789444127
+btop
+#1789444416
+nohup zbarcam-qt
+#1789444431
+nohup zbarcam-gtk&
+#1789444639
+sudo pacman -S obs-studio
+#1789445225
+sudo pacman -S xdg-desktop-portal
+#1789445231
+sudo pacman -S xdg-desktop-portal-wlr
+#1789445245
+ls .config
+#1789445250
+ls .config/portal
+#1789445352
+sudo pacman -S qt6-wayland
+#1789445426
+cd .config
+#1789445463
+mkdir xdg-desktop-portal
+#1789445467
+cd xdg-desktop-portal/
+#1789445475
+nvim portals.conf
+#1789445567
+echo $XDG_CURRENT_DESKTOP 
+#1789445574
+echo $XDG_SEAT
+#1789446029
+systemctl --user restart pipewire pipewire-pulse wireplumber
+#1789446076
+cd .config/xdg-desktop-portal/
+#1789446079
+nvim portals.conf 
+#1789446187
+cat /usr/share/wayland-sessions/niri.desktop 
+#1789446211
+sudo pacman -Rcns xdg-desktop-portal-gtk
+#1789446250
+cd .config/xdg-desktop-portal/
+#1789446252
+nvim portals.conf 
+#1789446296
+cd .config/xdg-desktop-portal/
+#1789446297
+nvim portals.conf 
+#1789446465
+md Videos
+#1789446714
+systemctl --user status xdg-desktop-portal
+#1789446726
+systemctl --user status xdg-desktop-portal-gtk
+#1789446733
+systemctl --user status xdg-desktop-portal-wlr
+#1789446743
+systemctl --user status xdg-desktop-portal
+#1789446839
+nvim .config/kitty/kitty
+#1789446850
+nvim .config/kitty/kitty.conf 
+#1789446910
+sudo pacman -S rtkit
+#1789446920
+systemctl --user restart xdg-desktop-portal
+#1789446923
+systemctl --user status xdg-desktop-portal
+#1789446931
+nvim .config/kitty/kitty.conf 
+#1789446862
+systemctl --user status xdg-desktop-portal
+#1789447225
+sudo pacman -Rcns xdg-desktop-portal-wlr
+#1789447240
+sudo pacman -Rcns xdg-desktop-portal-gtk
+#1789447249
+sudo pacman -Rcns xdg-desktop-portal-wlr
+#1789447263
+cd .config/xdg-desktop-portal/
+#1789447269
+nvim portals.conf 
+#1789447317
+sudo pacman -S xdg-desktop-portal-wlr
+#1789447327
+grim
+#1789447331
+slurp
+#1789447339
+slurp | grim
+#1789447348
+man grim
+#1789447373
+cd .config/xdg-desktop-portal/
+#1789447376
+nvim portals.conf 
+#1789447406
+systemctl --user stop xdg-desktop-gtk
+#1789447414
+systemctl --user stop xdg-desktop-portal-gtk
+#1789447424
+systemctl --user start xdg-desktop-portal-wlr
+#1789447449
+systemctl --user start xdg-desktop-portal-gtk
+#1789447457
+systemctl --user restart xdg-desktop-portal
+#1789447524
+obs-studio
+#1789447530
+obs-nvenc-test 
+#1789447536
+obs-ffmpeg-mux 
+#1789447566
+cat /usr/share/applications/zbarscan.desktop 
+#1789447576
+zbarscan
+#1789447580
+zbarimg
+#1789447607
+obs
+#1789447595
+btop
+#1789447828
+obs | grep --color pipewire
+#1789447974
+sudo pacman -S linux-headers
+#1789448056
+obs
+#1789448143
+sudo pacman -S v4l-utils
+#1789447936
+yay -S decklink
+#1789448716
+sudo modprobe -r uvcvideo
+#1789448716
+sudo modprobe uvcvideo
+#1789448615
+obs
+#1789448728
+sudo modprobe -r uvcvideo
+#1789448729
+sudo modprobe uvcvideo
+#1789454644
+systemctl --user status xdg-desktop-portal
+#1789454649
+systemctl --user status xdg-desktop-portal-wlr
+#1789454652
+systemctl --user status xdg-desktop-portal-gtk
+#1789454673
+man xdg-desktop-portal-wlr 
+#1789454686
+ls /etc/xdg
+#1789454694
+ls /etc/xdg/autostart/
+#1789454807
+cd .config/xdg-desktop-portal/
+#1789454825
+mv portals.conf niri-portals.conf
+#1789454829
+nvim niri-portals.conf 
+#1789454851
+cd
+#1789454887
+nvim .pam_environment
+#1789454906
+# Kill the portals
+#1789454906
+killall -9 xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk
+#1789454906
+# Restart the main portal service (systemd will auto-start the backends when requested)
+#1789454906
+systemctl --user restart xdg-desktop-portal.service
+#1789454919
+systemctl --user status xdg-desktop-portal
+#1789454927
+systemctl --user status xdg-desktop-portal-gtk
+#1789454932
+systemctl --user status xdg-desktop-portal-wlr
+#1789455069
+ls -l /sys/class/drm/renderD*/device/driver
+#1789455150
+wayland-info | grep -E "interface:|vendor"
+#1789455150
+# OR check Mesa's OpenGL renderer details
+#1789455150
+glxinfo | grep "OpenGL renderer string"
+#1789455163
+sudo pacman -S wayland-info
+#1789455167
+sudo pacman -S wayland
+#1789455172
+sudo pacman -S wayland-utils
+#1789455177
+wayland-info | grep -E "interface:|vendor"
+#1789455365
+nvim .pam_environment 
+#1789455090
+nvim .config/niri/config.kdl 
+#1789455402
+obs
+#1789455427
+nvim .pam_environment 
+#1789455472
+obs
+#1789455519
+QT_QPA_PLATFORM=wayland obs
+#1789455532
+QT_QPA_PLATFORM=xcb obs
+#1789455587
+sudo -E nvim /etc/kernel/cmdline
+#1789455605
+sudo -E mkinitcpio -P
+#1789455859
+obs --disable-gpu
+#1789456112
+sudo pacman -S obs
+#1789456119
+sudo pacman -S obs-studio
+#1789456203
+obs -platform wayland
+#1789455768
+sudo -E nvim /etc/kernel/cmdline
+#1789456239
+sudo mkinitcpio -P
+#1789456285
+cat /proc/cmdline
+#1789456346
+niri-session
+#1789456437
+obs --platform wayland
+#1789456545
+groups
+#1789456556
+v4l2-ctl --list-devices
+#1789456595
+systemctl --user status pipewire pipewire-pulse wireplumber
+#1789456799
+ldd obs
+#1789456808
+ldd $(which obs)
+#1789456686
+gdb obs
+#1789457299
+c,=lear
+#1789457305
+c=lear
+#1789457308
+echo c
+#1789457310
+echo $c
+#1789457314
+poweroff
+#1789470492
+systemctl --user status wireplumber
+#1789470500
+systemctl --user status pipewire
+#1789470504
+systemctl --user status pipewire-pulse
+#1789470512
+systemctl --user status wireplumber
+#1789470555
+systemctl --user enable --now upower
+#1789470569
+sudo pacman -S upower
+#1789470574
+systemctl --user enable --now upower
+#1789470594
+sudo systemctl enable --now upower
+#1789470609
+systemctl --user restart wireplumber
+#1789470716
+sudo pacman -S pipewire-libcamera
+#1789470618
+systemctl --user status wireplumber
+#1789470809
+sudo pacman -S pipewire-plugin
+#1789470822
+sudo pacman -S pipewire-v4l2
+#1789470852
+systemctl --user enable pipewire
+#1789470855
+systemctl --user enable pipewire-pulse
+#1789470877
+systemctl --user restart wireplumber
+#1789470915
+systemctl --user restart wireplumber.service 
+#1789470922
+systemctl --user status wireplumber.service 
+#1789471114
+ls /boot
+#1789471119
+ls /boot/efi
+#1789471122
+ls /boot/efi/loader
+#1789471132
+ls /boot/efi/loader/random-seed 
+#1789471137
+cat /boot/efi/loader/random-seed 
+#1789471144
+cat /boot/efi/loader/boot-secret-mixin 
+#1789471170
+cat /proc/cmdline
+#1789471253
+sudo pacman -S qt5ct
+#1789471301
+sudo pacman -S xdg-desktop-portal-gnome
+#1789471502
+cat 20260915_10h12m.png
+#1789471509
+cat 20260915_10h12m07s_grim.png 
+#1789471664
+ls -lah
+#1789471969
+ncmpcpp
+#1789472241
+ls -lah
+#1789472247
+cd C_Codes
+#1789472251
+cd practice/
+#1789472258
+./grade-management-system 
+#1789472720
+niri screenshot
+#1789472725
+niri cmd screenshot
+#1789472737
+niri msg screenshot
+#1789472755
+niri msg session
+#1789472777
+noctalia msg screenshot
+#1789472785
+noctalia msg --help
+#1789472809
+sudo pacman -Rcns xdg-desktop-portal-wlr
+#1789472828
+nvim .config/xdg-desktop-portal/niri-portals.conf 
+#1789472703
+nvim .config/niri/config.kdl 
+#1789472853
+nautilus
+#1789472881
+nvim .config/niri/config.kdl 
+#1789473079
+mv music/* Music/
+#1789473098
+nvim .config/mpd/mpd.conf 
+#1789473118
+systemctl --user restart mpd
+#1789473131
+mpc update
+#1789473134
+ncmpcpp 
+#1789473143
+mpc add Music
+#1789473146
+mpc add Music/
+#1789473149
+mpc add Music/*
+#1789473157
+mpc add Music/
+#1789473164
+mpc add ~/Music
+#1789473168
+mpc add ~/Music/*
+#1789473203
+ncmpcpp
+#1789473243
+gio
+#1789473540
+./play.sh 
+#1789473564
+sed -i 's/music/Music/g' play.sh 
+#1789473566
+./play.sh 
+#1789480619
+sudo pacman -Rcns thunar
+#1789480706
+file UX3402VAAS.307 
+#1789480711
+xxd UX3402VAAS.307 
+#1789480720
+xxd UX3402VAAS.307 | head -n 10
+#1789480745
+xxd UX3402VAAS.307 | file -n 100
+#1789480751
+xxd UX3402VAAS.307 | head -n 100
+#1789480765
+xxd UX3402VAAS.307 | head -n 1000
+#1789483122
+nvim .config/xdg-desktop-portal/niri-portals.conf 
+#1789483191
+git commit -a -m "added a newline in README.md"
+#1789483196
+git push
+#1789483448
+nvim zero.c
+#1789483491
+gcc zero.c -o zero
+#1789483495
+./zero
+#1789483539
+trap "echo 'trapped SIGFLOAT' && exit 1" FLOAT
+#1789483543
+btop
+#1789483561
+trap "echo 'trapped SIGFPE' && exit 1" FPE
+#1789483564
+./zero
+#1789483573
+trap "echo 'trapped SIGFPE' && exit 1" FPE
+#1789483575
+./zero
+#1789483589
+strace ./zero
+#1789483606
+strace strace
+#1789483628
+cat /etc/ld.so.cache 
+#1789483638
+xxd /etc/ld.so.cache 
+#1789483662
+xxd /etc/ld.so.conf
+#1789483668
+xxd /etc/ld.so.conf.d/
+#1789488604
+mousepad
+#1789488648
+sudo pacman -S libxfce4ui
+#1789488682
+nohup mousepad&
+#1789488711
+sudo mousepad
+#1789488723
+xhost
+#1789488726
+sudo mousepad
+#1789488754
+systemctl --user status xwayland-satellite.service 
+#1789488781
+systemctl --user enable --now xwayland-satellite.service 
+#1789488784
+systemctl --user status xwayland-satellite.service 
+#1789488792
+sudo mousepad
+#1789488839
+xhost +si localuser:arka
+#1789488843
+xhost +si localuser.arka
+#1789488851
+xhost si localuserarka
+#1789488855
+xhost -si localuserarka
+#1789488859
+xhost
+#1789488863
+xhost --help
+#1789488872
+man xhost
+#1789488896
+./longest_seq <<< "aabbbcccc"
+#1789488904
+xhost
+#1789488910
+man xhost
+#1789488996
+xhost -si localuser:arka
+#1789489004
+xhost -si:localuser:arka
+#1789489008
+xhost +si:localuser:arka
+#1789489013
+sudo mousepad
+#1789489019
+sudo -E mousepad
+#1789489817
+killall play.sh
+#1789490273
+cd "/home/arka/C_Codes/" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "/home/arka/C_Codes/"tempCodeRunnerFile
+#1789490331
+echo $?
+#1789490334
+cd "/home/arka/C_Codes/" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "/home/arka/C_Codes/"tempCodeRunnerFile
+#1789526198
+ls -lah
+#1789526203
+./zero
+#1789526226
+cat .osh-update
+#1789527404
+pwd
+#1789527571
+ls -lah
+#1789529184
+passwd
+#1789529202
+passwd | xxd
+#1789529254
+head -c 10 /dev/urandom
+#1789529264
+head -c 10 /dev/urandom | base64
+#1789529275
+head -c 1 /dev/urandom | base64
+#1789529279
+head -c 0 /dev/urandom | base64
+#1789529284
+head /dev/urandom | base64
+#1789529294
+head /dev/urandom -n 1 | base64
+#1789529297
+head /dev/urandom -n\c 1 | base64
+#1789529302
+head /dev/urandom -c 1 | base64
+#1789529306
+head /dev/urandom -c 2 | base64
+#1789529310
+head /dev/urandom -c 3 | base64
+#1789529313
+head /dev/urandom -c 4 | base64
+#1789529320
+head /dev/urandom -c 4 | base
+#1789529322
+head /dev/urandom -c 4 | base32
+#1789529327
+head /dev/urandom -c 10 | base32
+#1789529332
+head /dev/urandom -c 10 | base64
+#1789529362
+head /dev/urandom -c 10 | base64 | head -c 6
+#1789529367
+head /dev/urandom -c 10 | base64 | head -c 6 && echo
+#1789529441
+passwd
+#1789529491
+sudo passwd
+#1789529515
+sudo passwd root
+#1789530260
+cd /usr/share/fonts
+#1789530267
+sudo mkdir tiro
+#1789530269
+cd tiro
+#1789530300
+sudo -E unzip ~/Documents/Tiro_Devanagari_Hindi.zip 
+#1789530307
+sudo rm OFL.txt 
+#1789530315
+cd ~/Documents/
+#1789530323
+mv Tiro_Devanagari_Hindi.zip ../Downloads/
+#1789530335
+fc-cache
+#1789533604
+ncmpcpp
+#1789533627
+bluetoothctl 
+#1789533643
+ncmpcpp
+#1789533822
+wpctl
+#1789533843
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%
+#1789533845
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 0%
+#1789533847
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%
+#1789533852
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%
+#1789533861
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%
+#1789533873
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 50%
+#1789533878
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%
+#1789533413
+yay -S noctalia-git
+#1789534009
+ncmpcpp
+#1789533900
+yay -Syu
+#1789534323
+ncmpcpp
+#1789535769
+pacman -Qs gli
+#1789535771
+pacman -Qs glib
+#1789535774
+pacman -Qs glibc
+#1789535779
+pacman -Ss glibc
+#1789538156
+ls -lah
+#1789538168
+rm .bashrc.omb-backup-20260905183114 
+#1789538174
+ls -lh
+#1789540219
+killall play.sh
+#1789542730
+cd "/home/arka/C_Codes/" && g++ tempCodeRunnerFile.cpp -o tempCodeRunnerFile && "/home/arka/C_Codes/"tempCodeRunnerFile
+#1789542746
+rm tempCodeRunnerFile*
+#1789543266
+cd arrays/
+#1789543272
+gcc array.c 
+#1789543281
+git add *
+#1789543314
+git commit -a -m "optimised array.c"
+#1789543317
+git push
+#1789543332
+rm a.out
+#1789543342
+gcc array.c -o array
+#1789543345
+git push
+#1789543357
+git commit -a -m ""
+#1789543360
+git commit -a -m " "
+#1789543377
+git commit -a -m "no message"
+#1789543388
+git add *
+#1789543391
+git commit -a -m "no message"
+#1789543394
+git push
+#1789543402
+./array
+#1789543430
+gcc array.c -o array
+#1789543441
+git commit -a -m "corrected array.c"
+#1789543447
+git push
+#1789543454
+./array
+#1789543526
+yay -Syu
+#1789543558
+yay -S visual-studio-code-bin
+#1789550480
+cd C_Codes/
+#1789550489
+mkdir fileio
+#1789550493
+code fileio/
+#1789551045
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551357
+strace fileio1
+#1789551365
+la
+#1789551372
+strace ./fileio1
+#1789551473
+echo -e '\0'
+#1789551477
+echo -e '\0' | xxd
+#1789551481
+echo -en '\0' | xxd
+#1789551486
+echo -en '\0'
+#1789551495
+echo -en '\0' | tee myfile.txt 
+#1789551506
+echo -en '\0' | tee -a myfile.txt 
+#1789551515
+xxd myfile.txt 
+#1789551540
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551547
+xxd myfile.txt 
+#1789551565
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551587
+./fileio1 | xxd
+#1789551605
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551747
+gdb fileio1
+#1789551809
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551845
+xxd myfile.txt 
+#1789551860
+echo -en '\0' | tee -a myfile.txt 
+#1789551875
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789551895
+xxd myfile.txt 
+#1789551920
+cd "/home/arka/C_Codes/fileio/" && gcc fileio1.c -o fileio1 && "/home/arka/C_Codes/fileio/"fileio1
+#1789552094
+rm fileio/ -rf
+#1789552329
+cd C_Codes/
+#1789552338
+nvim .gitignore
+#1789552667
+cd C_Codes/
+#1789552671
+rm .gitignore 
+#1789552674
+cd ..
+#1789552683
+cp C_Codes/practice/
+#1789552686
+cp C_Codes/practice/ .
+#1789552688
+cp C_Codes/practice/ . -r
+#1789552703
+code practice/ && exit
+#1789553133
+cd "/home/arka/practice/" && gcc file.c -o file && "/home/arka/practice/"file
+#1789553236
+strace ./file
+#1789553326
+cd "/home/arka/practice/" && gcc file.c -o file && "/home/arka/practice/"file
+#1789554171
+gcc file.c -o file
+#1789554174
+./file
+#1789554260
+gcc file.c -o file
+#1789554261
+./file
+#1789554275
+strace ./file
+#1789554296
+gcc file.c -o file
+#1789554297
+strace ./file
+#1789554393
+gcc file.c -o file
+#1789554394
+strace ./file
+#1789554405
+./file
+#1789554472
+gcc file.c -o file
+#1789554473
+./file
+#1789554533
+gcc file.c -o file
+#1789554534
+./file
+#1789554596
+gcc file.c -o file
+#1789554597
+./file
+#1789554616
+killall play.sh
+#1789554620
+gcc file.c -o file
+#1789554621
+killall play.sh
+#1789554623
+./file
+#1789554639
+gcc file.c -o file
+#1789554641
+./file
+#1789554658
+gcc file.c -o file
+#1789554659
+./file
+#1789555020
+gcc grade-management-system.c -o grade-management-system
+#1789555022
+./grade-management-system 
+#1789555103
+gcc grade-management-system.c -o grade-management-system
+#1789555104
+./grade-management-system 
+#1789555270
+gcc grade-management-system.c -o grade-management-system
+#1789555271
+./grade-management-system 
+#1789555408
+gcc grade-management-system.c -o grade-management-system
+#1789555409
+./grade-management-system 
+#1789555483
+gcc grade-management-system.c -o grade-management-system
+#1789555484
+./grade-management-system 
+#1789555680
+gcc grade-management-system.c -o grade-management-system
+#1789555681
+./grade-management-system 
+#1789555723
+gcc grade-management-system.c -o grade-management-system
+#1789555732
+./grade-management-system 
+#1789555828
+gcc grade-management-system.c -o grade-management-system
+#1789555829
+./grade-management-system 
+#1789555966
+gcc grade-management-system.c -o grade-management-system
+#1789555968
+./grade-management-system 
+#1789556075
+gcc grade-management-system.c -o grade-management-system
+#1789556076
+./grade-management-system 
+#1789556118
+gcc grade-management-system.c -o grade-management-system
+#1789556120
+./grade-management-system 
+#1789556134
+gcc grade-management-system.c -o grade-management-system
+#1789556135
+./grade-management-system 
+#1789556268
+gcc grade-management-system.c -o grade-management-system
+#1789556270
+./grade-management-system 
+#1789556321
+cd C_Codes/
+#1789556346
+mv ../practice/grade-management-system* practice/
+#1789556364
+cd practice/
+#1789556378
+strace touch marks.txt
+#1789556407
+cd ..
+#1789556416
+nvim .gitignore
+#1789556449
+find marks.txt
+#1789556452
+find . marks.txt
+#1789556462
+find . mark.txt
+#1789556467
+find .
+#1789556471
+find --help
+#1789556492
+where
+#1789556499
+cd practice/
+#1789556510
+cd ..
+#1789556517
+nvim .gitignore 
+#1789556572
+git commit -a -m "Added persistent storage to grade-management-system.c through File I/O"
+#1789556585
+git push
+#1789556635
+git rm practice/marks.txt 
+#1789556681
+nvim .gitignore 
+#1789556713
+git add .gitignore 
+#1789556734
+git commit -a -m "Added .gitignore"
+#1789556739
+git push
+#1789556750
+nvim README.md 
+#1789556847
+git commit -a -m "Updated README.md"
+#1789556850
+git push
+#1789556905
+code C_Codes/practice/
+#1789556967
+gcc grade-management-system.c -o grade-management-system
+#1789557008
+git commit -a -m "Added closing file part in grade-management-system.c"
+#1789557013
+git push
+#1789557022
+./grade-management-system 
+#1789557127
+gcc grade-management-system.c -o grade-management-system
+#1789557131
+./grade-management-system 
+#1789557151
+git commit -a -m "Optimised grade-management-system.c"
+#1789557156
+git push
+#1789567676
+ls -lah
+#1789569006
+killall play.sh
+#1789569010
+killall mpv
+#1789572613
+killall play.sh
+#1789572617
+killall ,pv
+#1789576204
+killall play.sh
+#1789576208
+killall mpv
+#1789608609
+killall play.sh
+#1789608612
+killall ,pv
+#1789608615
+killall mpv
+#1789608583
+yay -Syu
+#1789610360
+gcc grade-management-system.c  -o grade-management-system
+#1789610469
+./grade-management-system 
+#1789610695
+gcc grade-management-system.c  -o grade-management-system
+#1789610696
+./grade-management-system 
+#1789610747
+gcc grade-management-system.c  -o grade-management-system
+#1789610749
+./grade-management-system 
+#1789610818
+git commit -a -m "Added grading system and functions in grade-management-system.c"
+#1789610848
+git push
+#1789611022
+git commit -a -m "Removed extra newlines in grade-management-system.c"
+#1789611029
+cd C_Codes/
+#1789611030
+git commit -a -m "Removed extra newlines in grade-management-system.c"
+#1789611036
+git push
+#1789611305
+git commit -a -m "Removed an unused variable 'char ch' in int main() in grade-management-system.c"
+#1789611308
+git push
+#1789611842
+git commit -a -m "Removed extra newlines in grade-management-system.c"
+#1789611866
+git commit -a -m "Added pass/fail in grade-management-system.c"
+#1789611910
+git commit --amend -m "Added pass/fail in grade-management-system.c"
+#1789611919
+git push
+#1789611929
+./grade-management-system 
+#1789611973
+gcc grade-management-system.c  -o grade-management-system
+#1789612038
+git commit --amend -m "Compiled grade-management-system.c"
+#1789612053
+git pull
+#1789612065
+git push
+#1789612168
+git commit --amend -m "Compiled grade-management-system.c"
+#1789612174
+git pull
+#1789612215
+killall play.sh && killall mpv
+#1789612450
+git pull
+#1789612501
+git pull --rebase
+#1789612511
+git commit --amend -m "Compiled grade-management-system.c"
+#1789612513
+git pull --rebase
+#1789612521
+git pull --no-rebase
+#1789612546
+git commit --amend -m "Compiled grade-management-system.c"
+#1789612556
+git commit -a -m "Compiled grade-management-system.c"
+#1789612561
+git push
+#1789612624
+gcc grade-management-system.c  -o grade-management-system
+#1789612635
+git commit -a -m "Updated grade-management-system.c"
+#1789612637
+git push
+#1789612645
+./grade-management-system 
+#1789612673
+gcc grade-management-system.c  -o grade-management-system
+#1789612677
+git commit -a -m "Updated grade-management-system.c"
+#1789612679
+git push
+#1789612686
+./grade-management-system 
+#1789612799
+git commit -a -m "Updated grade-management-system.c"
+#1789612802
+git push
+#1789612885
+./grade-management-system 
+#1789612916
+gcc grade-management-system.c  -o grade-management-system
+#1789612980
+./grade-management-system 
+#1789618206
+mkdir practice-C
+#1789618209
+code practice-C/
+#1789619746
+gcc wizard.c -o wizard
+#1789619751
+gcc wizard.c -o wizard -lm
+#1789619802
+./wizard <<< "2621 8119"
+#1789619812
+./wizard
+#1789619848
+gcc wizard.c -o wizard -lm
+#1789619851
+./wizard <<< "2621 8119"
+#1789619873
+./wizard <<< "4452 123"
+#1789619910
+gcc wizard.c -o wizard -lm
+#1789619912
+./wizard <<< "4452 123"
+#1789619914
+./wizard <<< "2621 8119"
+#1789620672
+gcc wizard.c -o wizard -lm
+#1789620674
+./wizard <<< "2621 8119"
+#1789620683
+./wizard <<< "26 8119"
+#1789620688
+./wizard <<< "26 89"
+#1789620691
+./wizard <<< "26 89l"
+#1789620694
+./wizard <<< "26 890"
+#1789620697
+./wizard <<< "26 880"
+#1789620700
+./wizard <<< "10 880"
+#1789620703
+./wizard <<< "1 880"
+#1789620724
+gcc wizard.c -o wizard -lm
+#1789620726
+./wizard <<< "1 880"
+#1789620740
+gcc wizard.c -o wizard -lm
+#1789620742
+./wizard <<< "1 880"
+#1789620748
+./wizard <<< "1 880" && echo $?
+#1789620757
+./wizard <<< "1 880" ; echo $?
+#1789622124
+cd practice
+#1789622130
+cd practice-C/
+#1789622133
+./wizard <<< "1 880" ; echo $?
+#1789622144
+./wizard <<< "19 880" ; echo $?
+#1789622148
+./wizard <<< "19 880"
+#1789622152
+./wizard <<< "129 880"
+#1789622163
+systemctl enable pipewire --user
+#1789622169
+./wizard <<< "
+445655 415454"
+#1789622203
+./wizard <<< "
+445655 41545"
+#1789622209
+exuit
+#1789626475
+code practice-C/ &&exit
+#1789626653
+gcc test.c -o test
+#1789626656
+gcc test.c -o test -lm
+#1789626659
+./test
+#1789626732
+strace ./test
+#1789626829
+gcc test.c -o test -lm
+#1789626831
+./test
+#1789626893
+gcc test.c -o test -lm
+#1789626894
+./test
+#1789627628
+yay -Syu
+#1789648212
+killall play.sh && killall mpv
+#1789655558
+ls -lah
+#1789655569
+cat .sdirs
+#1789655575
+cat .python_history 
+#1789655585
+cat .pam_environment 
+#1789655591
+nvim .pam_environment 
+#1789655617
+cat .pam_environment 
+#1789656436
+./practice-C/test 
+#1789656439
+bc
+#1789656444
+sudo pacman -S bc
+#1789656448
+bc
+#1789656541
+bc --help
+#1789656554
+bc -lqi
+#1789656577
+bc -lq
+#1789656591
+bc -q
+#1789656610
+man bc
+#1789656681
+bc -q
+#1789662145
+df -h
+#1789662184
+sudo du -sh /\
+#1789662200
+su
+#1789662511
+find / -name ngirc -path '/run/user/*/gvfs' -prune -o -path '/home/*/.gvfs' -prune -o -name ngirc -print
+#1789662512
+for d in /run/user/*; do su "${d##*/}" -c "find $d -name ngirc -print"; done
+#1789663211
+/tmp/org.gnome.Evince-3089/image.KZNKV3.png
+#1789663217
+cat find / -name ngirc -path '/run/user/*/gvfs' -prune -o -path '/home/*/.gvfs' -prune -o -name ngirc -print
+#1789663217
+for d in /run/user/*; do su "${d##*/}" -c "find $d -name ngirc -print"; done
+#1789663249
+cat /tmp/org.gnome.Evince-3089/image.ISPRV3.png
+#1789663257
+evince /tmp/org.gnome.Evince-3089/image.ISPRV3.png
+#1789663281
+eog /tmp/org.gnome.Evince-3089/image.ISPRV3.png
+#1789663296
+eog /tmp/org.gnome.Evince-3089/image.V2TNV3.png
+#1789663791
+sudo -i
+#1789663830
+2
+#1789663831
+3
+#1789663831
+4
+#1789663833
+6
+#1789663836
+cd /
+#1789663837
+2
+#1789663838
+1
+#1789663843
+2
+#1789663844
+1
+#1789663845
+11
+#1789663846
+1
+#1789663869
+cd Documents/
+#1789663870
+2
+#1789663872
+1
+#1789663873
+2
+#1789664401
+BlackmagicDesktopVideoSetup 
+#1789664453
+yay -Rcns decklink
+#1789664489
+sudo pacman -Rcns pipewire-libcamera pipewire-v4l2
+#1789664774
+ls -lah
+#1789698295
+sudo systemctl stop cronie.service 
+#1789698355
+file *.crl
+#1789698362
+cat 7462804f.d5a68194.crl 
+#1789698629
+cat .xsession-errors.old 
+#1789699305
+sudo systemctl start cronie.service 
+#1789699314
+sudo systemctl status cronie.service 
+#1789699388
+niri-session
+#1789699393
+niri
+#1789699405
+niri-session
+#1789699415
+niri-session ; echo $?
+#1789699362
+sudo crontab -e -u $USER
+#1789703961
+yay -Syu
+#1789713570
+sudo pacman -S bluez-obex 
+#1789713589
+sudo systemctl restart bluetooth
+#1789713739
+sudo pacman -S gvfs-mtp
+#1789713746
+sudo pacman -S gvfs
+#1789717667
+./grade-management-system 
+#1789717775
+gcc grade-management-system.c -o grade-management-system
+#1789717780
+./grade-management-system 
+#1789717802
+gcc grade-management-system.c -o grade-management-system
+#1789717803
+./grade-management-system 
+#1789717888
+gcc grade-management-system.c -o grade-management-system
+#1789718023
+./grade-management-system 
+#1789718080
+niri-session
+#1789718093
+git commit -a -m "Updated grade-management-system.c"
+#1789718102
+git push
+#1789718175
+gcc grade-management-system.c -o grade-management-system
+#1789718178
+git commit -a -m "Updated grade-management-system.c"
+#1789718180
+git push
+#1789718265
+./grade-management-system 
+#1789718271
+gcc grade-management-system.c -o grade-management-system
+#1789718274
+git commit -a -m "Updated grade-management-system.c"
+#1789718276
+git push
+#1789718303
+cd C_Codes/practice/
+#1789718308
+cat marks.txt 
+#1789718314
+nvim marks.txt 
+#1789718329
+cat marks.txt && echo
+#1789718339
+cd C_Codes/practice/
+#1789718342
+./grade-management-system 
+#1789718469
+echo -n "" > marks.txt 
+#1789718474
+echo -n "" >> marks.txt 
+#1789718477
+cat marks.txt && echo
+#1789718495
+echo -n "" | tee marks.txt 
+#1789718498
+cat marks.txt && echo
+#1789718502
+cat marks.txt
+#1789718507
+cat marks.txt | xxd
+#1789718512
+xxd marks.txt 
+#1789718521
+./grade-management-system 
+#1789718559
+code .
+#1789719035
+gcc grade-management-system.c -o grade-management-system
+#1789719040
+./grade-management-system 
+#1789719082
+git commit -a -m "Updated grade-management-system.c"
+#1789719089
+git push
+#1789719242
+gcc grade-management-system.c -o grade-management-system
+#1789719244
+git commit -a -m "Updated grade-management-system.c"
+#1789719246
+git push
+#1789719254
+ls -lah
+#1789719270
+gcc grade-management-system.c -o grade-management-system -O2 -pipe -march=alderlake
+#1789719285
+git commit -a -m "Compiled grade-management-system.c"
+#1789719288
+git push
+#1789719297
+ls -lah
+#1789719303
+./grade-management-system 
+#1789719467
+gcc grade-management-system.c -o grade-management-system -O2 -pipe -march=raptorlake
+#1789719476
+git commit -a -m "Updated grade-management-system.c"
+#1789719479
+git push
+#1789719496
+./grade-management-system 
+#1789719517
+gcc grade-management-system.c -o grade-management-system -O2 -pipe -march=raptorlake
+#1789719519
+git commit -a -m "Updated grade-management-system.c"
+#1789719521
+git push
+#1789719529
+./grade-management-system 
+#1789724863
+code practice-C/ && exit
+#1789724900
+cd "/home/arka/practice-C/" && gcc theory.c -o theory && "/home/arka/practice-C/"theory
+#1789733136
+gcc
+#1789733138
+g++
+#1789738339
+cd practice-C/
+#1789738353
+gcc ../C_Codes/password-strength.c -o password-strength
+#1789738363
+./password-strength <<< "UCE39Y"
+#1789738373
+./password-strength <<< "C6ZCwg"
+#1789738382
+./password-strength <<< "51%NKJp#"
+#1789738394
+strings password-strength 
+#1789738507
+C_Codesexit
+#1789738523
+./password-strength <<< "GHAHc454%$^//{}"
+#1789738552
+bc <<< "3^2"
+#1789738555
+bc <<< "3^3"
+#1789738558
+bc <<< "3^100"
+#1789738565
+bc <<< "3^99"
+#1789738574
+bc <<< "10^100"
+#1789738580
+bc <<< "10^1000"
+#1789738588
+bc <<< "10^999"
+#1789738594
+bc <<< "9^999"
+#1789738600
+bc <<< "9^100"
+#1789738607
+bc <<< "9^1000"
+#1789738626
+bc <<< "(10^17-2)/19"
+#1789738629
+bc <<< "(10^17-2)/18"
+#1789738632
+bc <<< "(10^17-2)/19"
+#1789738636
+bc -l <<< "(10^17-2)/19"
+#1789738639
+bc -l <<< "(10^17-2)/18"
+#1789738641
+bc -l <<< "(10^17-2)/17"
+#1789738645
+bc -l <<< "(10^17-2)/19"
+#1789741265
+yay -S terabox-bin
+#1789742597
+cd C_Codes/varargs/
+#1789742600
+ls -a
+#1789742605
+rm .gdbinit 
+#1789742630
+git commit -a -m"Removed .gdbinit in varargs/"
+#1789742647
+cd C_Codes/
+#1789742654
+git commit -a -m "Removed .gdbinit in varargs/"
+#1789742658
+git push
+#1789744001
+btop
+#1789749023
+killall play.sh
+#1789749579
+sudo nvim /etc/X11/xorg.conf.d/30-touchpad.conf
+#1789749602
+sudo pacman -S libinput
+#1789752625
+killall play.sh
+#1789753527
+gcc sort_digits.c -o sort_digits
+#1789753862
+gcc sort_digits.c -o sort_digits -lm
+#1789753881
+./sort_digits <<< "273914"
+#1789753895
+gcc sort_digits.c -o sort_digits -lm
+#1789753897
+./sort_digits <<< "273914"
+#1789753935
+./sort_digits <<< "274"
+#1789753938
+./sort_digits <<< "2"
+#1789753942
+./sort_digits <<< "3"
+#1789753944
+./sort_digits <<< "31"
+#1789753980
+sed -i 's/short/int/g' sort_digits.c
+#1789753986
+gcc sort_digits.c -o sort_digits -lm
+#1789753988
+./sort_digits <<< "31"
+#1789754010
+gcc sort_digits.c -o sort_digits -lm
+#1789754011
+./sort_digits <<< "31"
+#1789754056
+gcc sort_digits.c -o sort_digits -lm
+#1789754057
+./sort_digits <<< "31"
+#1789754099
+gcc sort_digits.c -o sort_digits -lm
+#1789754102
+./sort_digits <<< "273914"
+#1789754149
+sed -i 's/unsigned int/int/g' sort_digits.c
+#1789754182
+gcc sort_digits.c -o sort_digits -lm
+#1789754183
+./sort_digits <<< "273914"
+#1789754203
+gcc sort_digits.c -o sort_digits -lm
+#1789754204
+./sort_digits <<< "273914"
+#1789754243
+gcc sort_digits.c -o sort_digits -lm
+#1789754244
+./sort_digits <<< "273914"
+#1789754281
+bc
+#1789754425
+gcc sort_digits.c -o sort_digits -lm
+#1789754427
+./sort_digits <<< "273914"
+#1789754526
+gcc sort_digits.c -o sort_digits -lm
+#1789754528
+./sort_digits <<< "273914"
+#1789754603
+gcc sort_digits.c -o sort_digits -lm
+#1789754604
+./sort_digits <<< "273914"
+#1789754680
+gcc sort_digits.c -o sort_digits -lm
+#1789754681
+./sort_digits <<< "273914"
+#1789754718
+gcc sort_digits.c -o sort_digits -lm
+#1789754719
+./sort_digits <<< "273914"
+#1789754786
+gcc sort_digits.c -o sort_digits -lm
+#1789754787
+./sort_digits <<< "273914"
+#1789754830
+gcc sort_digits.c -o sort_digits -lm
+#1789754831
+./sort_digits <<< "273914"
+#1789754849
+gcc sort_digits.c -o sort_digits -lm
+#1789754850
+./sort_digits <<< "273914"
+#1789754862
+gcc sort_digits.c -o sort_digits -lm
+#1789754863
+./sort_digits <<< "273914"
+#1789754872
+./sort_digits <<< "5522"
+#1789754875
+./sort_digits <<< "1000"
+#1789754878
+./sort_digits <<< "1090"
+#1789755772
+gcc int_palin.c -o int_palin
+#1789755776
+gcc int_palin.c -o int_palin -lm
+#1789755784
+./int_palin <<< "1234321"
+#1789755802
+gcc int_palin.c -o int_palin -lm
+#1789755803
+./int_palin <<< "1234321"
+#1789755805
+./int_palin <<< "1234320"
+#1789760249
+gcc int_palin.c -o int_palin -lm
+#1789760251
+./int_palin <<< "1234320"
+#1789760271
+gcc int_palin.c -o int_palin -lm
+#1789760272
+./int_palin <<< "1234320"
+#1789760287
+./int_palin <<< "1234321"
+#1789760586
+gcc int_palin.c -o int_palin -lm
+#1789760587
+./int_palin <<< "1234321"
+#1789760589
+./int_palin <<< "1234320"
+#1789760635
+gcc int_palin.c -o int_palin -lm
+#1789760642
+./int_palin <<< "1234320"
+#1789760647
+./int_palin <<< "1234321"
+#1789782615
+yay -S zapzap-bin
+#1789783040
+yay -S parabolic
+#1789783365
+gpm
+#1789783395
+sudo systemctl start gpm
+#1789783430
+CCCC
+#1789783434
+sudo systemctl start gpm
+#1789783444
+sudo systemctl stop gpm
+#1789783452
+sudo systemctl stop gpm.path
+#1789783459
+sudo systemctl stop gpm.service 
+#1789783325
+yay -Syu
+#1789783884
+gcc bin_consec_ones.c -o bin_consec_ones
+#1789783888
+gcc bin_consec_ones.c -o bin_consec_ones -lm
+#1789783902
+./bin_consec_ones <<< "242"
+#1789783912
+./bin_consec_ones <<< "2"
+#1789783945
+gcc bin_consec_ones.c -o bin_consec_ones -lm
+#1789783947
+./bin_consec_ones <<< "2"
+#1789783948
+./bin_consec_ones <<< "242"
+#1789785011
+killall play.sh
+#1789785013
+killall mpv
+#1789785325
+gcc bin_consec_ones.c -o bin_consec_ones -lm
+#1789785327
+./bin_consec_ones <<< "242"
+#1789785335
+./bin_consec_ones <<< "156"
+#1789785344
+./bin_consec_ones <<< "43690"
+#1789785349
+./bin_consec_ones <<< "255"
+#1789785421
+gcc bin_consec_ones.c -o bin_consec_ones -lm
+#1789785423
+./bin_consec_ones <<< "255"
+#1789785425
+./bin_consec_ones <<< "43690"
+#1789785428
+./bin_consec_ones <<< "156"
+#1789787694
+sudo pacman -Rcns xdg-exit
+#1789788607
+killall mpv
+#1789788610
+sudo pacman -Rcns xdg-exit
+#1789788611
+killall mpv
+#1789788611
+sudo pacman -Rcns xdg-exit
+#1789788614
+killall mpv
+#1789789509
+gcc reverse.c -o reverse
+#1789789522
+./reverse <<< "I like"
+#1789789564
+./reverse <<< "I like" | xxd
+#1789789619
+gcc reverse.c -o reverse
+#1789789621
+./reverse <<< "I like" | xxd
+#1789789630
+gcc reverse.c -o reverse
+#1789789631
+./reverse <<< "I like" | xxd
+#1789789645
+gcc reverse.c -o reverse
+#1789789646
+./reverse <<< "I like" | xxd
+#1789789676
+gcc reverse.c -o reverse
+#1789789678
+./reverse <<< "I like" | xxd
+#1789789786
+gcc reverse.c -o reverse
+#1789789787
+./reverse <<< "I like" | xxd
+#1789789941
+gcc reverse.c -o reverse
+#1789789942
+./reverse <<< "I like" | xxd
+#1789789946
+./reverse <<< "I like"
+#1789790022
+gcc reverse.c -o reverse
+#1789790023
+./reverse <<< "I like"
+#1789790081
+gcc reverse.c -o reverse
+#1789790082
+./reverse <<< "I like"
+#1789790155
+gcc reverse.c -o reverse
+#1789790156
+./reverse <<< "I like"
+#1789790178
+gcc reverse.c -o reverse
+#1789790179
+./reverse <<< "I like"
+#1789790441
+gcc reverse.c -o reverse
+#1789790442
+./reverse <<< "I like"
+#1789790615
+gcc reverse.c -o reverse
+#1789790616
+./reverse <<< "I like"
+#1789790626
+./reverse <<< "I like" | xxd
+#1789790664
+gcc reverse.c -o reverse
+#1789790665
+./reverse <<< "I like" | xxd
+#1789790670
+./reverse <<< "I like"
+#1789790698
+gcc reverse.c -o reverse
+#1789790699
+./reverse <<< "I like"
+#1789790723
+gcc reverse.c -o reverse
+#1789790724
+./reverse <<< "I like"
+#1789790750
+gcc reverse.c -o reverse
+#1789790751
+./reverse <<< "I like"
+#1789790772
+./reverse <<< "the cat jumped"
+#1789790789
+./reverse <<< "programming in c is fun"
+#1789791955
+gcc subseq.c -o subseq
+#1789791957
+./subseq 
+#1789792219
+killall play.sh && killall mpv
+#1789793099
+gcc clockmaker.c -o clockmaker
+#1789793108
+gcc clockmaker.c -o clockmaker -lm
+#1789793111
+gcc clockmaker.c -o clockmaker
+#1789793113
+gcc clockmaker.c -o clockmaker -lm
+#1789793133
+./clockmaker <<< "14 15"
+#1789793178
+gcc clockmaker.c -o clockmaker -lm
+#1789793179
+./clockmaker <<< "14 15"
+#1789793236
+gcc clockmaker.c -o clockmaker -lm
+#1789793237
+./clockmaker <<< "14 15"
+#1789793251
+gcc clockmaker.c -o clockmaker -lm
+#1789793252
+./clockmaker <<< "14 15"
+#1789793260
+./clockmaker <<< "12 15"
+#1789793600
+cd practice-C/
+#1789793608
+nvim theory.c
+#1789793617
+nvim test.c
+#1789793662
+gcc test.c -o test
+#1789793668
+nvim test.c
+#1789793678
+gcc test.c -o test
+#1789793683
+./test
+#1789793813
+cd practice-C/
+#1789793815
+nvim test.c
+#1789793850
+gcc test.c -o test
+#1789793852
+./test
+#1789793915
+cd practice-C/
+#1789793918
+nvim test.c
+#1789793974
+gcc test.c -o test
+#1789793976
+./test
+#1789793984
+./test | xxd
+#1789794137
+gcc test.c -o test
+#1789794140
+nvim test.c
+#1789794163
+gcc test.c -o test
+#1789794168
+nvim test.c
+#1789794176
+gcc test.c -o test
+#1789794178
+./test | xxd
+#1789794199
+gcc test.c -o test
+#1789794201
+nvim test.c
+#1789794232
+gcc test.c -o test
+#1789794233
+./test | xxd
+#1789794242
+gcc test.c -o test
+#1789794245
+nvim test.c
+#1789794349
+gcc test.c -o test
+#1789794350
+./test | xxd
+#1789794384
+gcc test.c -o test
+#1789794386
+./test | xxd
+#1789794388
+nvim test.c
+#1789794420
+gcc test.c -o test
+#1789794424
+./test
+#1789794538
+nvim test.c
+#1789794549
+nvim test.c
+#1789794560
+gcc test.c -o test
+#1789794562
+./test
+#1789794793
+nvim test.c
+#1789794880
+gcc test.c -o test
+#1789794881
+nvim test.c
+#1789794884
+./test
+#1789794987
+echo -ne "" | tee test.c
+#1789794989
+nvim test.c
+#1789795100
+gcc test.c -o test
+#1789795209
+code practice-C/ && exit
+#1789795309
+gcc test.c -o test
+#1789795431
+./test <<< "5 1 e Hello"
+#1789795436
+./test <<< "5 1 e Hello" | xxd
+#1789795478
+./test <<< "5 2 e Hello" | xxd
+#1789795483
+./test <<< "5 0 e Hello" | xxd
+#1789795492
+./test <<< "5 1 l Hello" | xxd
+#1789795496
+./test <<< "5 2 l Hello" | xxd
+#1789795500
+./test <<< "5 3 l Hello" | xxd
+#1789795562
+./test <<< "6 3 l Hello" | xxd
+#1789795592
+gcc test.c -o test
+#1789795593
+./test <<< "6 3 l Hello" | xxd
+#1789795599
+./test <<< "6 3 l Hello"
+#1789795616
+gcc test.c -o test
+#1789795617
+./test <<< "6 3 l Hello"
+#1789795648
+./test <<< "6 1 l Hello"
+#1789795654
+gcc test.c -o test
+#1789795656
+./test <<< "6 1 l Hello"
+#1789795668
+./test <<< "6 1 l Hello" | xxd
+#1789795719
+./test <<< "1 1 l l" | xxd
+#1789795723
+./test <<< "1 1 l l"
+#1789795727
+./test <<< "2 1 l l"
+#1789795734
+./test <<< "3 1 l l"
+#1789795740
+./test <<< "2 1 l l"
+#1789795758
+./test <<< "2 1 l l" | xxd
+#1789795784
+gcc test.c -o test
+#1789795786
+./test <<< "2 1 l l" | xxd
+#1789795799
+./test <<< "1 1 l l" | xxd
+#1789795809
+killall play.sh && killall mpv
+#1789795815
+./test <<< "1 1 l l"
+#1789795903
+./test <<< "2 1 l ll"
+#1789796041
+gcc test.c -o test
+#1789796042
+./test <<< "2 1 l ll"
+#1789796048
+./test <<< "1 1 l l"
+#1789796054
+./test <<< "1 2 l l"
+#1789797985
+d
+#1789797987
+sd
+#1789798013
+kitty +kitten desktop_ui 
+#1789798021
+kitty +kitten themes 
+#1789798048
+sd
+#1789798051
+kitty +kitten themes 
+#1789798094
+ls -lah
+#1789798097
+kitty +kitten themes 
+#1789798178
+ls -lah
+#1789798180
+jjk
+#1789798188
+ls -lah
+#1789802932
+gcc trim.c -o trim
+#1789802943
+./trim <<< "     asffgf    "
+#1789802967
+gcc trim.c -o trim
+#1789802968
+./trim <<< "     asffgf    "
+#1789802974
+./trim <<< "     asff   gf    "
+#1789802978
+./trim <<< "     asff   gf    " | xxd
+#1789803220
+./trim <<< "asff   gf" | xxd
+#1789803224
+./trim <<< "asff   gf"
+#1789803387
+./trim <<< ""
+#1789803392
+./trim <<< "" | xxd
+#1789803422
+./trim
+#1789803581
+reset
+#1789803583
+./trim
+#1789803609
+./trim | xxd
+#1789803769
+sudo pacman -S readline
+#1789803876
+gcc trim.c -o trim
+#1789803906
+gcc trim.c -o trim -lreadline
+#1789803913
+./trim
+#1789804029
+gcc trim.c -o trim -lreadline
+#1789804031
+./trim
+#1789806574
+cd practice-C/
+#1789806585
+./trim
+#1789806613
+killall play.sh && killall mpv
+#1789807111
+man readline
+#1789807198
+readline
+#1789807203
+readlink
+#1789807208
+readlink --help
+#1789807223
+readlink /etc/localtime
+#1789807298
+gcc sort_digits.c -o sort_digits
+#1789807300
+gcc sort_digits.c -o sort_digits -lm
+#1789807311
+gcc sort_digits.c -o sort_digits -lm -march=raptorlake -O2 -pipe
+#1789807322
+./sort_digits <<< "947982"
+#1789807361
+./sort_digits <<< "4127487"
+#1789807588
+./wizard 
+#1789807674
+gcc trim.c -o trim
+#1789807679
+gcc trim.c -o trim -lreadline
+#1789807690
+gcc trim.c -o trim -lreadline -march=native -O2 -pipe
+#1789807695
+./trim
+#1789807766
+gcc trim.c -o trim -lreadline -march=native -O2 -pipe
+#1789807768
+clear'
+
+'
+#1789807776
+clear''
+#1789807803
+./trim <<< "432342'"
+#1789807806
+./trim <<< "432342'\n'"
+#1789807826
+./trim <<< "           cdrbrtb       432342             " | xxd
+#1789807833
+./trim <<< "           cdrbrtb       432342             "
+#1789807850
+./trim | echo "    vdbgf bdfbfb  "
+#1789807863
+./trim
+#1789808288
+➜
+#1789808293
+xxd ➜
+#1789808300
+echo ➜ | xxd
+#1789808306
+echo -n ➜ | xxd
+#1789820795
+gcc clockmaker.c -o clockmaker
+#1789820799
+gcc clockmaker.c -o clockmaker -lm
+#1789820875
+gcc bin_consec_ones.c -o bin_consec_ones
+#1789821126
+gcc int_palin.c -o int_palin
+#1789821176
+./int_palin <<< "12321"
+#1789821187
+./int_palin <<< "12421"
+#1789821189
+./int_palin <<< "12431"
+#1789821317
+gcc sort_digits.c -o sort_digits
+#1789821322
+./sort_digits <<< "2"
+#1789821325
+./sort_digits <<< "23243534"
+#1789821406
+sed -i 's/unsigned int/int/g' wizard.c
+#1789821471
+gcc wizard.c -o wizard
+#1789821492
+./wizard <<< "2621 8119"
+#1789821501
+./wizard <<< "4452 123"
+#1789821536
+gcc clockmaker.c -o clockmaker -lm
+#1789821587
+gcc clockmaker.c -o clockmaker
+#1789822801
+close
+#1789835411
+killall play.sh && killall mpv
+#1789839238
+yay -S github-desktop-bin
+#1789840193
+man strcat
+#1789840428
+cd C_Codes/
+#1789840433
+git pull
+#1789869206
+yay -Syu
+#1789869232
+hash
+#1789869241
+has160-hash 
+#1789869245
+rhash
+#1789869248
+rhash --help
+#1789869258
+rhash .bashrc
+#1789869267
+cat .bashrc
+#1789869270
+rhash .bashrc
+#1789869283
+rhash --help .bashrc
+#1789869290
+rhash --base64 .bashrc
+#1789869295
+rhash --base32 .bashrc
+#1789869306
+rhash --base32 --hex .bashrc
+#1789869311
+rhash --hex .bashrc
+#1789869322
+rhash -g .bashrc
+#1789869333
+rhash --torrent .bashrc
+#1789869344
+cat .bashrc.torrent 
+#1789869351
+xxd .bashrc.torrent 
+#1789869372
+echo $PS1
+#1789869457
+yay -S terabox-bin
+#1789869481
+yay --help
+#1789869510
+yay -cc
+#1789869514
+yay -Scc
+#1789869527
+sudo yay -Scc
+#1789869552
+sudo yay -Ycc
+#1789869575
+sudo pacman -Ycc
+#1789869578
+sudo pacman -Scc
+#1789869586
+sudo pacman -Ycc
+#1789869588
+sudo yay -Ycc
+#1789869664
+yay -Si github-desktop-bin
+#1789869680
+yay -Si terabox-bin 
+#1789869702
+yay -Si zapzap-bin
+#1789869712
+yay -Si parabolic 
+#1789869717
+yay -Si parabolic-bin 
+#1789869721
+yay -Si parabolic
+#1789869734
+dotnet 
+#1789869748
+sudo pacman -Rcns dotnet-host dotnet-runtime
+#1789869781
+yay -Si noctalia-git
+#1789869889
+sudo pacman -Si dotnet-host dotnet-runtime
+#1789869913
+niri
+#1789869965
+niri --session
+#1789869990
+RUST_BACKTRACE=full niri --session
+#1789870070
+du -sh /var/cache/pacman/pkg/
+#1789870075
+sudo du -sh /var/cache/pacman/pkg/
+#1789870088
+sudo pacman -S pacman
+#1789870093
+sudo pacman -S pacman-contrib
+#1789870105
+echo $EDITOR
+#1789870108
+vi
+#1789870122
+sudo paccache -r
+#1789870127
+sudo paccache -r ls
+#1789870144
+sudo paccache -ruk0
+#1789870158
+sudo pacman -Sc
+#1789870192
+sudo ls /var/cache/pacman/pkg/
+#1789870202
+sudo ls /var/cache/pacman/pkg/download-0LLKUV/
+#1789870206
+sudo ls /var/cache/pacman/pkg/download-0LLKUV/ -lah
+#1789870249
+pacman -Qdtq
+#1789870276
+yay -Scc
+#1789870287
+yay -Ycc
+#1789870333
+sudo pacman -S rhash cmake meson ninja gobject-introspection
+#1789870356
+pacman -Qdtq
+#1789871731
+git commit -a -m "No message"
+#1789871734
+git push
+#1789876127
+yay -S claude-desktop
+#1789876789
+gcc atoi.c -o atoi
+#1789876797
+./atoi <<< "-59"
+#1789876802
+./atoi <<< "+59"
+#1789876804
+./atoi <<< "+ 59"
+#1789876809
+./atoi <<< "  +59   "
+#1789876821
+./atoi <<< "  +59"
+#1789876823
+./atoi <<< "  59"
+#1789876839
+./atoi <<< "  -59"
+#1789876845
+./atoi <<< "59"
+#1789876847
+./atoi <<< " 59"
+#1789876885
+./atoi <<< "59   "
+#1789876937
+./atoi <<< "   "
+#1789876941
+./atoi <<< "   d\"
+\
+#1789876950
+./atoi <<< "   d"
+#1789876955
+./atoi <<< "6486jhbdf"
+#1789876977
+./atoi <<< "+34"
+#1789877468
+gcc atof.c -o atof
+#1789877478
+./atof <<< "59"
+#1789877481
+./atof <<< "59.2"
+#1789877485
+./atof <<< "59.23"
+#1789877487
+./atof <<< "59.5"
+#1789877494
+./atof <<< "59.25"
+#1789877497
+./atof <<< "59.125"
+#1789877498
+./atof <<< "59.1251"
+#1789877528
+gcc atof.c -o atof
+#1789877529
+./atof <<< "59.125"
+#1789877532
+./atof <<< "59.126"
+#1789877538
+./atof <<< " 59.125"
+#1789877567
+gcc atof.c -o atof
+#1789877569
+./atof <<< " 59.125"
+#1789877584
+./atof <<< "    59.125"
+#1789877612
+gcc atof.c -o atof
+#1789877613
+./atof <<< "    59.125"
+#1789877624
+gcc atof.c -o atof
+#1789877625
+./atof <<< "    59.125"
+#1789877639
+./atof <<< "  59.125"
+#1789877643
+./atof <<< "   59.125"
+#1789877646
+./atof <<< "    59.125"
+#1789877659
+./atof <<< "    59.125   "
+#1789877682
+gcc atof.c -o atof
+#1789877683
+./atof <<< "    59.125   "
+#1789877715
+gcc atof.c -o atof
+#1789877716
+./atof <<< "    59.125   "
+#1789877722
+gcc atof.c -o atof
+#1789877723
+./atof <<< "    59.125   "
+#1789877736
+gcc atof.c -o atof
+#1789877737
+./atof <<< "    59.125   "
+#1789877757
+gcc atof.c -o atof
+#1789877759
+./atof <<< "    59.125   "
+#1789877780
+./atof <<< "    59.125"
+#1789877782
+gcc atof.c -o atof
+#1789877783
+./atof <<< "    59.125"
+#1789877804
+gcc atof.c -o atof
+#1789877805
+./atof <<< "    59.125"
+#1789877821
+./atof <<< "    59.125    "
+#1789877825
+./atof <<< "    p59.125    "
+#1789877829
+./atof <<< "    -59.125    "
+#1789877833
+./atof <<< "    +59.125    "
+#1789877879
+gcc atoi.c -o atoi
+#1789877886
+./atoi <<< "   474788   "
+#1789877889
+./atoi <<< "   +474788   "
+#1789877892
+./atoi <<< "   -474788   "
+#1789890847
+cd practice-C/
+#1789890852
+nvim test.c
+#1789890864
+echo -n
+#1789890868
+echo -n | xxd
+#1789890878
+echo -n | tee test.c
+#1789890881
+nvim test.c
+#1789890971
+gcc test.c -o test
+#1789890973
+./test
+#1789890981
+./test && echo
+#1789891049
+./test && echo | xxd
+#1789891068
+xxd <<< $(./test && echo)
+#1789896007
+nvim .config/niri/config.kdl 
+#1789911007
+killall play.sh && killall mpv
+#1789923674
+yay -S java
+#1789923848
+yay -S jdk
+#1789925660
+pacman -Ycc
+#1789925667
+yay -Ycc
+#1789925698
+yay -S intellij-idea-ultimate-edition 
+#1789926837
+yay -Ycc
+#1789926841
+yay -Scc
+#1789927462
+qemu-system-x86_64 
+#1789927480
+sudo pacman -S qemu-full
+#1789927497
+sudo pacman -S qemu-full virt-manager
+#1789929399
+yay -Rcns intellij-idea-ultimate-edition jdk
+#1789929421
+rm -rf IdeaProjects/
+#1789929426
+java
+#1789929447
+yay -Rcns intellij-idea-ultimate-edition jdk
+#1789929460
+xxd <<< $(./test && echo)
+#1789929472
+./play.sh 
+#1789958871
+gcc test.c -c -o test.o
+#1789958881
+strings test.o
+#1789958895
+ld test.o -o test
+#1789958910
+ld test.o -o test -lc
+#1789958914
+./test
+#1789958928
+strings test
+#1789958935
+./test
+#1789958955
+strings test.o
+#1789958958
+gcc test.c -c -o test.o
+#1789958964
+ld test.o -o test -lc
+#1789958967
+ldd test
+#1789958976
+ldd trim
+#1789958987
+ldd wizard
+#1789959075
+ld test.o -o test -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 
+#1789959134
+ld /lib64/crt1.o /lib64/ctri.o test.o -o test -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib64/crtn.o 
+#1789959144
+ld /lib64/crt1.o /lib64/crti.o test.o -o test -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib64/crtn.o 
+#1789959148
+ldd test
+#1789959154
+test
+#1789959159
+./test
+#1789959170
+gcc test.c -c -o test.o
+#1789959173
+ld /lib64/crt1.o /lib64/crti.o test.o -o test -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib64/crtn.o 
+#1789959174
+./test
+#1789959185
+gcc test.c -c -o test.o
+#1789959187
+ld /lib64/crt1.o /lib64/crti.o test.o -o test -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib64/crtn.o 
+#1789959188
+./test
+#1789959198
+file test
+#1789959205
+strip test
+#1789959206
+file test
+#1789959224
+file test.o
+#1789959493
+man objdump
+#1789959514
+cd test.c
+#1789959520
+cd practice-C/
+#1789959532
+objdump test
+#1789959534
+objdump test.o
+#1789959535
+objdump test
+#1789959537
+objdump test -a
+#1789959540
+objdump test.o -a
+#1789959554
+objdump test.o -f
+#1789959558
+objdump test -f
+#1789959578
+objdump test -d
+#1789959602
+objdump test.o -d
+#1789959635
+objdump test.o -D
+#1789959639
+objdump test -D
+#1789959679
+rm *.o
+#1789959686
+ca
+#1789959690
+yay -Syu
+#1789959727
+zz
+#1789959728
+z
+#1789959729
+zzz
+#1789969817
+gcc func-pointer.c -o func-pointer
+#1789969825
+./func-pointer <<< "4 6"
+#1789969832
+./func-pointer <<< "1231221 1223232"
+#1789970157
+gcc func-pointer.c -o func-pointer
+#1789970159
+./func-pointer <<< "1231221 1223232"
+#1789970495
+gcc fptr2.c -o fptr2
+#1789970497
+./fptr2 
+#1789970504
+gcc fptr2.c -o fptr2
+#1789970505
+./fptr2 
+#1789970877
+gcc cmdline-calc.c -o cmdline-calc
+#1789970880
+./cmdline-calc 
+#1789970887
+./cmdline-calc 123 234j wehjk 799y7c djdj
+#1789971336
+gcc cmdline-calc.c -o cmdline-calc
+#1789971342
+./cmdline-calc add 123 12
+#1789971347
+./cmdline-calc subtract 123 12
+#1789971351
+./cmdline-calc subtract 2 12
+#1789971358
+./cmdline-calc multiply 2 12
+#1789971365
+./cmdline-calc multiply 32343 24325
+#1789971377
+./cmdline-calc divide 32343 24325
+#1789971385
+./cmdline-calc remainder 3398322343 24325
+#1789971392
+./cmdline-calc remainder 3398322343
+#1789971424
+./cmdline-calc ewndje
+#1789971648
+gcc cmdline-calc.c -o cmdline-calc
+#1789971650
+./cmdline-calc ewndje
+#1789971662
+gcc cmdline-calc.c -o cmdline-calc
+#1789971662
+./cmdline-calc ewndje
+#1789971671
+gcc cmdline-calc.c -o cmdline-calc
+#1789971672
+./cmdline-calc ewndje
+#1789971757
+gcc cmdline-calc.c -o cmdline-calc
+#1789971758
+./cmdline-calc ewndje
+#1789971767
+gcc cmdline-calc.c -o cmdline-calc
+#1789971768
+./cmdline-calc ewndje
+#1789971772
+./cmdline-calc --help
+#1789971778
+./cmdline-calc add 2
+#1789971779
+./cmdline-calc add 2 3
+#1789971783
+./cmdline-calc add 2186 217812
+#1789971902
+gcc cmdline-calc.c -o cmdline-calc
+#1789971905
+./cmdline-calc add 2
+#1789971929
+gcc cmdline-calc.c -o cmdline-calc
+#1789971930
+./cmdline-calc add 2
+#1789971936
+./cmdline-calc add 2 3 3
+#1789971938
+./cmdline-calc add 2 3
+#1789972163
+gcc cmdline-calc.c -o cmdline-calc
+#1789972164
+./cmdline-calc add 2 3
+#1789972205
+killall play.sh && killall mpv
+#1789972514
+git commit -a -m "no message"
+#1789972517
+git push
+#1789972683
+cd arrays/
+#1789972689
+cd ..
+#1789972694
+cd functions/arrays-as-arguments/
+#1789972706
+cd..
+#1789972712
+rm squeeze.c 
+#1789972717
+git commit -a -m "no message"
+#1789972725
+git push
+#1789973047
+vh
+#1789973055
+vh 2> /dev/null
+#1789973060
+vh 1> /dev/null
+#1789973063
+vh ?> /dev/null
+#1789973075
+vh *> /dev/null
+#1789973120
+vh &> /dev/null
+#1789973129
+vh &> /dev/null; $? = 0
+#1789973136
+vh &> /dev/null; $?=0
+#1789973142
+vh &> /dev/null; ?=0
+#1789973145
+vh &> /dev/null; q=0
+#1789973150
+vh &> /dev/null; $q
+#1789973157
+vh &> /dev/null; q=[
+#1789973160
+vh &> /dev/null; $q
+#1789973165
+vh &> /dev/null; q=[ ]
+#1789973167
+vh &> /dev/null; $q
+#1789973172
+echo $q
+#1789973176
+vh &> /dev/null; q="[ ]"
+#1789973177
+echo $q
+#1789973179
+vh &> /dev/null; $q
+#1789973518
+ls fake_folder
+#1789973528
+ls fake_folder | grep "No such"
+#1789973539
+ls fake_folder 2>&1 | grep "No such"
+#1789973545
+ls fake_folder 2>&1
+#1789973550
+ls fake_folder 2>&1 | xxd
+#1789973558
+ls fake_folder 1>&2 | xxd
+#1789973563
+xxd
+#1789973569
+xxd <<< "a"
+#1789973578
+xxd <<< $(echo "a")
+#1789973582
+xxd <<< $(echo -n "a")
+#1789973585
+xxd <<< $(echo -e "a")
+#1789973589
+xxd <<< $(echo -e 'a')
+#1789973595
+xxd <<< $(echo -en 'a')
+#1789973601
+echo -en 'a'
+#1789973608
+xxd | echo -en 'a'
+#1789973624
+echo -en 'a' | xxd
+#1789973632
+echo -n 'a' | xxd
+#1789973636
+echo 'a' | xxd
+#1789973668
+ls 1>&2
+#1789973676
+ls 1>&2 | grep play.sh
+#1789973681
+ls | grep play.sh
+#1789973687
+ls | grep --color play.sh
+#1789973915
+git commit -a -m "Updated README"
+#1789973920
+git push
+#1789974554
+cd ../practice/
+#1789974598
+gcc grade-management-system.c -o  grade-management-system -march=native -O2 -pipe -fPIC
+#1789974624
+git commit -a -m "Updated grade-management-system.c"
+#1789974627
+git push
+#1789974634
+./grade-management-system 
+#1789974654
+mv marks.txt mark.txt
+#1789974659
+./grade-management-system 
+#1789974762
+mv mark.txt marks.txt
+#1789974765
+./grade-management-system 
+#1789974895
+gcc grade-management-system.c -o  grade-management-system -march=native -O2 -pipe -fPIC
+#1789974898
+./grade-management-system 
+#1789974919
+gcc grade-management-system.c -o  grade-management-system -march=native -O2 -pipe -fPIC
+#1789974953
+./grade-management-system 
+#1789974963
+mv marks.txt mark.txt
+#1789974964
+./grade-management-system 
+#1789974976
+gcc grade-management-system.c -o  grade-management-system -march=native -O2 -pipe -fPIC
+#1789974994
+git commit -a -m "Updated grade-management-system.c"
+#1789974997
+git push
+#1789975015
+mv mark.txt marks.txt
+#1789975017
+git push
+#1789975034
+./grade-management-system 
+#1789993839
+killall play.sh && killall mpv
+#1789999813
+f
+#1789999817
+fzf
+#1789999822
+fzf /
+#1789999825
+cd /
+#1789999826
+fzf /
+#1789999829
+fzf
+#1789999847
+$(sudo fzf)
+#1789999860
+$(fzf)
+#1789999899
+1
+#1789999901
+2
+#1789999902
+1
+#1790051405
+killall play.sh && killall mpv
+#1790051429
+sudo systemctl stop cronie.service 
+#1790076362
+cd ..
+#1790076365
+mkdir esc111
+#1790076393
+mv tut* esc111/
+#1790076402
+git add *
+#1790076414
+git commit -a -m "no message"
+#1790076419
+git push
+#1790076465
+mkdir -p esc112/tut1
+#1790076472
+cd esc112/tut1
+#1790076520
+sudo systemctl stop cronie.service 
+#1790076979
+cd "/home/arka/C_Codes/esc112/tut1/" && gcc array-in-struct.c -o array-in-struct && "/home/arka/C_Codes/esc112/tut1/"array-in-struct
+#1790077739
+ls -x
+#1790077746
+ls -help
+#1790077749
+ls --help
+#1790077787
+ls -D
+#1790077866
+rm array-in-struct
+#1790077880
+pwd
+#1790078198
+ldd
+#1790078207
+ldd ../tut1/array-of-struct.c 
+#1790078219
+ldd ../../unions
+#1790078286
+../../unions
+#1790078483
+cd "/home/arka/C_Codes/esc112/tut1/" && gcc pointers.c -o pointers && "/home/arka/C_Codes/esc112/tut1/"pointers
+#1790078496
+cd "/home/arka/C_Codes/esc112/tut1/" && gcc pointers.c -o pointers && "/home/arka/C_Codes/esc112/tut1/"pointers |  xxd
+#1790079538
+gcc practice.c -o practice
+#1790079541
+./practice 
+#1790079824
+git add *
+#1790079844
+git commit -a -m "created esc112/tut1"
+#1790079850
+git push
+#1790081826
+yay -Syu
+#1790087409
+killall play.sh && killall mpv
+#1790148239
+cd ../../practice/
+#1790148259
+gcc grade-management-system.c -o grade-management-system -march=native -O2
+#1790148289
+./grade-management-system 
+#1790148316
+mv marks.txt mark.txt
+#1790148318
+./grade-management-system 
+#1790148350
+gcc grade-management-system.c -o grade-management-system -march=native -O2
+#1790148375
+./grade-management-system 
+#1790148398
+mv mark.txt marks.txt 
+#1790148404
+./grade-management-system 
+#1790148587
+cd "/home/arka/practice-C/" && gcc student_management_system.c -o student_management_system && "/home/arka/practice-C/"student_management_system
+#1790148651
+touch students.txt marks.txt
+#1790148979
+ren
+#1790148989
+mv students.txt names.txt
+#1790152380
+yay -Rcns parabolic 
+#1790152732
+yay -Rcns terabox-bin 
+#1790153744
+gcc array_shift.c -o  array_shift
+#1790153749
+./array_shift 
+#1790154376
+gcc array_shift.c -o  array_shift
+#1790154379
+./array_shift 
+#1790154452
+gcc array_shift.c -o  array_shift
+#1790154454
+./array_shift 
+#1790170216
+killall play.sh && killall mpv
+#1790173367
+gcc file_stat.c -o file_stat
+#1790173376
+./file_stat ~/.bashrc
+#1790173491
+gcc file_stat.c -o file_stat
+#1790173492
+./file_stat ~/.bashrc
+#1790173501
+wc ~/.bashrc
+#1790173575
+gcc file_stat.c -o file_stat
+#1790173576
+./file_stat ~/.bashrc
+#1790173655
+gcc file_stat.c -o file_stat
+#1790173657
+./file_stat ~/.bashrc
+#1790173660
+./file_stat .bashrc
+#1790173697
+gcc file_stat.c -o file_stat
+#1790173700
+./file_stat .bashrc
+#1790173735
+gcc file_stat.c -o file_stat
+#1790173736
+./file_stat .bashrc
+#1790173758
+gcc file_stat.c -o file_stat
+#1790173759
+./file_stat .bashrc
+#1790173781
+gcc file_stat.c -o file_stat
+#1790173781
+./file_stat .bashrc
+#1790173885
+gcc file_stat.c -o file_stat
+#1790173896
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790173909
+./file_stat ~/.bashrc
+#1790173914
+wc --help
+#1790173921
+./file_stat ~/.bashrc
+#1790173925
+wc ~/.bashrc
+#1790174166
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790174168
+./file_stat ~/.bashrc
+#1790174186
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790174186
+./file_stat ~/.bashrc
+#1790174269
+gcc -fsanitize=address -g file_stat.c -o file_stat
+#1790174272
+./file_stat 
+#1790174289
+gcc -fsanitize=address -g file_stat.c -o file_stat
+#1790174295
+./file_stat ~/.bashrc
+#1790174339
+gcc -fsanitize=address -g file_stat.c -o file_stat
+#1790174340
+./file_stat ~/.bashrc
+#1790174380
+gcc file_stat.c -o file_stat -march=native -O2 -pipe
+#1790174381
+./file_stat ~/.bashrc
+#1790174405
+gcc -fsanitize=address -g file_stat.c -o file_stat -march=native -O2 -pipe
+#1790174410
+./file_stat ~/.bashrc
+#1790174423
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790174424
+./file_stat ~/.bashrc
+#1790174426
+./file_stat ~/.bashr
+#1790174497
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790174500
+./file_stat ~/.bashrc dfgr
+#1790174503
+./file_stat ~/.bashrc
+#1790174513
+./file_stat --help
+#1790174517
+./file_stat -h
+#1790174522
+./file_statd dgfeso
+#1790174528
+./file_stat dgfeso
+#1790176756
+gcc file_stat.c -o file_stat -O2 -march=native -pipe
+#1790176760
+./file_stat ~/.bashrc
+#1790176766
+wc ~/.bashrc
+#1790185351
+cp practice-C/file_stat.c C_Codes/practice/
+#1790185361
+cd C_Codes/practice/
+#1790185380
+git add *
+#1790185413
+git config --global set advice.addIgnoredFile false
+#1790185425
+git --global config set advice.addIgnoredFile false
+#1790185438
+git config set advice.addIgnoredFile false
+#1790185442
+git add *
+#1790185447
+git add * -f
+#1790185457
+git rm marks.txt 
+#1790185462
+git rm marks.txt -f
+#1790185468
+git add *
+#1790185500
+git commit -a -m "Added file_stat.c which can give file statistics"
+#1790185505
+git push
+#1790185526
+cd ../../practice-C/
+#1790185529
+./file_stat 
+#1790185533
+./file_stat --help
+#1790185536
+./file_stat -h
+#1790185538
+./file_stat -j
+#1790185541
+./file_stat dfbgfguiwfh
+#1790185548
+./file_stat /bin
+#1790185553
+./file_stat /bin/bash
+#1790185559
+bash
+#1790185567
+./file_stat /bin/ls
+#1790185577
+./file_stat /dev/urandom
+#1790185593
+./file_stat /dev/nvme0n1p1
+#1790185610
+./file_stat /etc/resolv.conf 
+#1790185617
+wc /dev/nvme0n1p1
+#1790185624
+wc -c /dev/nvme0n1p1
+#1790185628
+wc -C /dev/nvme0n1p1
+#1790185633
+wc --help
+#1790185654
+wc /dev/nvme0n1p1
+#1790185657
+wc /dev/nvme0n1p2
+#1790185667
+./file_stat /etc/resolv.conf 
+#1790185672
+wc /etc/resolv.conf 
+#1790185734
+nvim file_stat.c
+#1790185765
+gcc file_stat.c -o file_stat -O2 -pipe -march=native
+#1790185776
+./file_stat ~/.bashrc
+#1790185782
+wc ~/.bashrc
+#1790185795
+./file_stat /dev/nvme0n1p1
+#1790185806
+cd ../C_Codes/
+#1790185820
+cp ../practice-C/file_stat.c practice/
+#1790185842
+git commit -a -m "no message"
+#1790185845
+git push
+#1790185854
+cd ../practice-C/
+#1790185868
+strings file_stat
+#1790185966
+xxd file_stat
+#1790186024
+./file_stat ~/.bashrc
+#1790186025
+./file_stat ~/.bashr
+#1790186026
+./file_stat ~/.bashrc
+#1790186031
+./file_stat ~/.bash_history 
+#1790186038
+wc ~/.bash_history 
+#1790186261
+cd ../practice-C/
+#1790186269
+nvim file_stat.c
+#1790186291
+gcc file_stat.c -o file_stat -O2 -pipe -march=native
+#1790186293
+wc ~/.bash_history 
+#1790186304
+./file_stat ~/.bash_history 
+#1790186382
+cp ~/.bash_history practice-C/bash-history
+#1790186385
+cd practice-C/
+#1790186389
+./file_stat bash-history 
+#1790186394
+wc bash-history 
+#1790186402
+./file_stat ~/.bash-history 
+#1790186413
+./file_stat ~/.bash_history 
+#1790186425
+wc ~/.bash_history 

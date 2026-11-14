@@ -1,0 +1,6 @@
+About stack
+___________________________________
+
+*p++ -> *p then p++ Push onto stack
+*--p -> --p then *p Pop from stack
+FILO or LIFO

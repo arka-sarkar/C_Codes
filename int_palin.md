@@ -1,0 +1,1 @@
+Write a C program with a function named isPalindrome that takes a single positive integer as an argument. The function should return 1 if the integer reads the same forwards and backwards (a palindrome), and 0 if it does not. Because you cannot use arrays or strings, you must solve this mathematically by isolating and reversing the digits.
