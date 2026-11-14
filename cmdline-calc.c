@@ -8,8 +8,8 @@ int main(int argc, char* argv[]) {
     int invalid = 0;
 
     if(argc == 4) {
-        int64_t num2 = atoi(argv[3]);
-        int64_t num1 = atoi(argv[2]);
+        int64_t num2 = atol(argv[3]);
+        int64_t num1 = atol(argv[2]);
         int64_t result;
 
         if(strcmp(op, "add") == 0) result = num1 + num2;
