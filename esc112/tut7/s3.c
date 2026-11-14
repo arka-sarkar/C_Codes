@@ -57,7 +57,7 @@ int main() {
                 for(unsigned int i=0; i<=siz; i++) {
                     if(((M>>i)&1u) == 1) {
                         if(not_first) putchar(' ');
-                        if(!not_first) not_first=1;
+			else not_first=1;
                         printf("%d", i);
                     }
                 }
