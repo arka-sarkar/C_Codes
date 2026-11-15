@@ -39,7 +39,8 @@ void permute(char *s, int l, int r) {
 }
 
 int main() {
-    char s[] = "cab";
-    permute(s, 0, 2);
+    char s[31];
+    scanf(" %30[^\n]", s);
+    permute(s, 0, strlen(s)-1);
     return 0;
 }
