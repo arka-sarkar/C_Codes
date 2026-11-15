@@ -10,7 +10,7 @@ void gen(char *src, int n, char *buf, int used[], int pos) {
 
     for (int i = 0; i < n; i++) {
         if(used[i]) continue;
-
+        if(i>0 && src[i]==src[i-1] && !used[i-1]) continue;
         used[i] = 1;
         buf[pos] = src[i];
         gen(src, n, buf, used, pos+1);
